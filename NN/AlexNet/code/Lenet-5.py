@@ -1,7 +1,11 @@
 import tensorflow as tf  
-import input_data  
-  
-mnist = input_data.read_data_sets('MNIST_data', one_hot=True)  
+#import input_data
+from tensorflow.examples.tutorials.mnist import input_data
+
+#mnist = input_data.read_data_sets('../../../../data/MNIST_data', one_hot=True)
+
+mnist = input_data.read_data_sets('E:\PycharmProjects\data\MNIST_data', one_hot=True)
+
   
 sess = tf.InteractiveSession()  
   

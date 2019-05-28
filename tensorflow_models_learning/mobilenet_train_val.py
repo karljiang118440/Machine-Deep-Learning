@@ -194,13 +194,31 @@ if __name__ == '__main__':
     val_record_file='dataset/record/val224.tfrecords'
 
     train_log_step=100
+    base_lr = 0.01  # 学习率
+    # 重头开始训练的话，mobilenet收敛慢的一比，大概20000次迭代后，准确率开始蹭蹭的往上长,迭代十万次后准确率才70%
+    max_steps = 2000 # 迭代次数
+    train_param=[base_lr,max_steps]
+
+    val_log_step=200
+    snapshot=200#保存文件间隔
+
+    '''
+    raw set
+    
+    train_log_step=100
     base_lr = 0.001  # 学习率
     # 重头开始训练的话，mobilenet收敛慢的一比，大概20000次迭代后，准确率开始蹭蹭的往上长,迭代十万次后准确率才70%
     max_steps = 100000  # 迭代次数
     train_param=[base_lr,max_steps]
 
     val_log_step=500
-    snapshot=2000#保存文件间隔
+    snapshot=2000#保存文件间隔 
+    
+    
+    '''
+
+
+
     snapshot_prefix='models/model.ckpt'
     train(train_record_file=train_record_file,
           train_log_step=train_log_step,

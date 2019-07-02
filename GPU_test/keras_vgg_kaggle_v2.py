@@ -67,11 +67,19 @@ model.add(Dropout(0.25))
 
 model.add(Flatten())
 model.add(Dense(100, activation='relu')) # Dense(256 > Dense(100
+model.add(Dense(1, activation='sigmoid'))
 model.add(Dropout(0.5))
-model.add(Dense(1, activation='sigmoid')) #Dense(10, activation='softmax') > Dense(1, activation='sigmoid')
+#model.add(Dense(1, activation='sigmoid')) #Dense(10, activation='softmax') > Dense(1, activation='sigmoid')
+
 
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy', optimizer=sgd)
+model.compile(loss='binary_crossentropy',
+              optimizer=sgd,
+              metrics=['accuracy'])
+
+
+
+model.compile(loss='sparse_categorical_crossentropy', optimizer=sgd)  #categorical_crossentropy > sparse_categorical_crossentropy
 
 #model.fit(x_train, y_train, batch_size=32, epochs=10)  # model.fit(x_train, y_train, batch_size=32, epochs=10) > next line "model.fit"
 

@@ -6,6 +6,20 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.optimizers import SGD
 from keras.utils import np_utils
 
+import os
+from keras.models import Sequential
+from keras.optimizers import Adam, SGD
+from keras.layers import Dense, Activation, Flatten, Dropout
+from keras.layers import Conv2D, MaxPooling2D
+import logging
+from resize_pic import generate_data, load_data
+from sklearn.model_selection import train_test_split
+import numpy as np
+from keras.models import model_from_yaml, load_model, model_from_json
+from matplotlib import pyplot as plt
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s-%(message)s')
+
 
 '''
 # Generate dummy data
@@ -26,7 +40,6 @@ y_test = keras.utils.to_categorical(np.random.randint(10, size=(20, 1)), num_cla
 '''
 
 
-
 path = os.path.join(os.getcwd(), 'train')
 # test_data, test_labels = generate_data(path, 100)
 test_data, test_labels = load_data('./train', (128, 128), 100)
@@ -42,7 +55,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 model = Sequential()
 # input: 100x100 images with 3 channels -> (100, 100, 3) tensors.
 # this applies 32 convolution filters of size 3x3 each.
-model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(input_shape)) #input_shape=(100, 100, 3) > input_shape=(input_shape)
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3))) #input_shape=(100, 100, 3) > input_shape=(input_shape)
 model.add(Conv2D(32, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
@@ -55,7 +68,7 @@ model.add(Dropout(0.25))
 model.add(Flatten())
 model.add(Dense(100, activation='relu')) # Dense(256 > Dense(100
 model.add(Dropout(0.5))
-model.add(Dense(1, activation='sigmoid'))) #Dense(10, activation='softmax') > Dense(1, activation='sigmoid')
+model.add(Dense(1, activation='sigmoid')) #Dense(10, activation='softmax') > Dense(1, activation='sigmoid')
 
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd)

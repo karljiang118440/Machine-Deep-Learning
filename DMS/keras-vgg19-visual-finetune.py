@@ -1,3 +1,17 @@
+
+
+
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
+
+
+
+
+
+
+
 import keras
 from keras import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Softmax, Activation, Dense
@@ -19,13 +33,16 @@ from keras.layers import *
 from keras.applications import *
 from keras.preprocessing.image import *
 
-dir = "/ext/Data/distracted_driver_detection/"
+#dir = "/ext/Data/distracted_driver_detection/"
+
+#调用本地的目录
+dir = "D:\Tensorflow\DMS\mlnd_distracted_driver_detection-master\data\distracted_driver_detection\imgs"
 
 model_image_size = (224, 224)
 fine_tune_layer = 22
 final_layer = 24
 visual_layer = 21
-batch_size = 64
+batch_size = 8
 
 def lambda_func(x):
     x /= 255.
@@ -76,9 +93,13 @@ for i in range(fine_tune_layer):
     steps_train_sample = train_generator.samples // 128 + 1
     steps_valid_sample = valid_generator.samples // 128 + 1
 
+
+
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-    model.fit_generator(train_generator, steps_per_epoch=steps_train_sample, epochs=10, validation_data=valid_generator,
+    model.fit_generator(train_generator, steps_per_epoch=steps_train_sample, epochs=10,validation_data=valid_generator,
                         validation_steps=steps_valid_sample)
+
+
 
     model.save("models/vgg19-imagenet-finetune{}-adam.h5".format(fine_tune_layer))
     print("model saved!")

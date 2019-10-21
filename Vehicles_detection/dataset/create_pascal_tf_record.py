@@ -44,7 +44,13 @@ def dict_to_tf_example(data,
   #确定照片的路径，这个我调试了很久，一直找未找此路径的文件，建议将路径输出，看看是否正确。
   #这里有个大坑，官方的XML标注里面，filename字段是后面有文件类型的，但是用labelImg标注是没有的
   #我们在img_path里手动拼接   +'.jpg'  
-  img_path = os.path.join('VOC2012',data['folder'], data['filename']+'.jpg')
+
+#####
+  #img_path = os.path.join('VOC2012',data['folder'], data['filename']+'.jpg')
+  img_path = os.path.join('VOC2012',data['folder'], data['filename'])  #去除 .jpg
+
+#####
+
   full_path = os.path.join(dataset_directory, img_path)
   #手动输入查看路径是否正确
   print('full_path',full_path)

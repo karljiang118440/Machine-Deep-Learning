@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # 文件存放目录
-CIFAR_DIR = "./cifar-10-batches-py"
+CIFAR_DIR = "E:\DL_data\cifar-10-python.tar\cifar-10-python\cifar-10-batches-py"
 
 
 def load_data( filename ):

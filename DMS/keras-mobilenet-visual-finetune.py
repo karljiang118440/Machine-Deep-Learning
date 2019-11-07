@@ -31,7 +31,7 @@ from keras.preprocessing.image import *
 #dir = "/ext/Data/distracted_driver_detection/"
 
 #调用本地的目录
-dir = "D:\Tensorflow\DMS\mlnd_distracted_driver_detection-master\data\distracted_driver_detection\imgs"
+dir = "D:\Tensorflow\Projects\DMS\mlnd_distracted_driver_detection-master\data\distracted_driver_detection\imgs"
 #dir = "D:\Tensorflow\DMS\mlnd_distracted_driver_detection-master\data\distracted_driver_detection"
 
 model_image_size = (224, 224)
@@ -72,7 +72,11 @@ x = input_tensor
 # if lambda_func:
 #     x = Lambda(lambda_func)(x)
 
-base_model = VGG19(input_tensor=Input((*model_image_size, 3)), weights='imagenet', include_top=False)
+#base_model = VGG19(input_tensor=Input((*model_image_size, 3)), weights='imagenet', include_top=False)
+#修改使用的模型为mobilenet
+base_model = MobileNet(input_tensor=Input((*model_image_size, 3)), weights='imagenet', include_top=False)
+
+
 
 x = GlobalAveragePooling2D()(base_model.output)
 x = Dropout(0.5)(x)
@@ -97,5 +101,5 @@ for i in range(fine_tune_layer):
 
 
 
-    model.save("models/vgg19-imagenet-finetune{}-adam.h5".format(fine_tune_layer))
+    model.save("models/mobilenet-imagenet-finetune{}-adam.h5".format(fine_tune_layer))
     print("model saved!")

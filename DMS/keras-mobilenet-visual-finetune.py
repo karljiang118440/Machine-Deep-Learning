@@ -35,10 +35,13 @@ dir = "D:\Tensorflow\Projects\DMS\mlnd_distracted_driver_detection-master\data\d
 #dir = "D:\Tensorflow\DMS\mlnd_distracted_driver_detection-master\data\distracted_driver_detection"
 
 model_image_size = (224, 224)
+
+#karl_1: 修改以下参数  mobelinet
+
 fine_tune_layer = 22
 final_layer = 24
 visual_layer = 21
-batch_size = 64
+batch_size = 8 # karl_1:64g改为8
 
 def lambda_func(x):
     x /= 255.

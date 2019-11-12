@@ -58,14 +58,17 @@ for i in range(10):
 	out, predictions = model2.predict(np.expand_dims(x, axis=0))   #model_show ==》 model2 修改调用的模型
 	predictions = predictions[0]
 	out = out[0]
+	
 	max_idx = np.argmax(predictions)
 	prediction = predictions[max_idx]
+    
+	print("c=%d' %(max_idx) ")
     
     
 	status = ["safe driving",  " texting - right",  "phone - right",  "texting - left",  "phone - left",  
                 "operation radio", "drinking", "reaching behind", "hair and makeup", "talking"]
-	plt.title('c%d |%s| %.2f%%' % (max_idx , status[max_idx], prediction*100))  
-	print("c%d |%s| %.2f%%' % (max_idx , status[max_idx], prediction*100)")
+	plt.title('c%d |%s| %.2f%%' % (max_idx , status[max_idx], prediction*100))
+	print("c%d |%s| %.2f%% "%(max_idx, status[max_idx], prediction*100))
 
     
 	cv2.imshow("img",image)  

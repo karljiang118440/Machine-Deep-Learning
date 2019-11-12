@@ -49,7 +49,7 @@ print("weights shape {0}".format(weights.shape))
 #需要进行预处理操作
 
 
-cap = cv2.VideoCapture('test/test.avi')
+cap = cv2.VideoCapture('test/karl.mp4')
 while (1): #while (cap.isOpened()) >  while (1)
 	ret,frame = cap.read()
 	image = cv2.resize(frame,(img_width,img_height))
@@ -69,7 +69,8 @@ while (1): #while (cap.isOpened()) >  while (1)
 	plt.title('c%d |%s| %.2f%%' % (max_idx , status[max_idx], prediction*100))
 
     
-	cv2.imshow("img",image)
+	cv2.imshow("img",image)  
+	#plt.imshow(out)
 	key = cv2.waitKey(1) & 0xFF
 	if key == ord("q"):
 		break

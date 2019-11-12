@@ -1,4 +1,4 @@
-
+import os
 import matplotlib.pyplot as plt
 import random
 
@@ -9,6 +9,8 @@ import cv2
 import  tensorflow as tf
 import  numpy as np
 import time
+
+import glob
 
 from IPython.display import SVG
 from keras.utils.vis_utils import model_to_dot
@@ -39,24 +41,20 @@ model2 = Model(model.input, [layer_output, model.output])
 print("layer_output {0}".format(layer_output))
 print("weights shape {0}".format(weights.shape))
 
-    #show_heatmap_image(model2, weights)
-        #据此将    model2 《== model
-        #  weights 《==  weights_show， 但是此处的 weights_show 用于cam 可视化，未用
 
 
+test_dir="./test"
+image_files = glob.glob(os.path.join(test_dir,"*"))
+print(len(image_files))
 
-
-#需要进行预处理操作
-
-
-cap = cv2.VideoCapture('test/karl.mp4')
-while (1): #while (cap.isOpened()) >  while (1)
-	ret,frame = cap.read()
-	image = cv2.resize(frame,(img_width,img_height))
-    
-	x = image.copy()
+plt.figure(figsize=(12, 24))
+for i in range(10):
+	plt.subplot(5, 2, i+1)
+	#img = cv2.imread(image_files[2000*i+113])
+	image = cv2.imread(image_files[i])
+	img = cv2.resize(image,  (model_image_size[1],model_image_size[0]))
+	x = img.copy()
 	x.astype(np.float32)
-	image = cv2.resize(frame,(img_width,img_height))
 	out, predictions = model2.predict(np.expand_dims(x, axis=0))   #model_show ==》 model2 修改调用的模型
 	predictions = predictions[0]
 	out = out[0]
@@ -75,9 +73,8 @@ while (1): #while (cap.isOpened()) >  while (1)
 	key = cv2.waitKey(1) & 0xFF
 	if key == ord("q"):
 		break
-	time.sleep(0.01)
-cap.release()
-cv2.destroyAllWindows()
+	time.sleep(1)
+
 
 
 

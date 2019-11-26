@@ -1,3 +1,5 @@
+# 使用 mobilenet classication -2019.11.26
+
 import tensorflow as tf
 import  os
 import numpy as np

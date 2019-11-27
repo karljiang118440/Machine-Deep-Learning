@@ -1,10 +1,10 @@
 # -*-coding: utf-8 -*-
 """
     @Project: create_tfrecord
-    @File   : create_tfrecord.py
-    @Author : panjq
-    @E-mail : pan_jinquan@163.com
-    @Date   : 2018-07-27 17:19:54
+    @File   : create_tfrecord-bms.py
+    @Author : karljinag
+    @E-mail : 
+    @Date   : 20191127
     @desc   : 将图片数据保存为单个tfrecord文件
 """
 
@@ -291,22 +291,22 @@ def batch_test(record_file,resize_height, resize_width):
 if __name__ == '__main__':
     # 参数设置
 
-    resize_height = 299  # 指定存储图片高度  #针对 inception_v3 修改 height 和width
-    resize_width = 299  # 指定存储图片宽度
+    resize_height = 224  # 指定存储图片高度  karljiang:mobilenet 输入尺寸长度为224
+    resize_width = 224  # 指定存储图片宽度
     shuffle=True
-    log=5
+    log=10                #log=5  --> 10，10个分类
     # 产生train.record文件
-    image_dir='dataset/train'
-    train_labels = 'dataset/train.txt'  # 图片路径
-    train_record_output = 'dataset/record/train{}.tfrecords'.format(resize_height)
+    image_dir='E:/DL_data/distracted_driver_detection/dataset/train'
+    train_labels = 'E:/DL_data/distracted_driver_detection/dataset/train.txt'  # 图片路径
+    train_record_output = 'E:/DL_data/distracted_driver_detection/dataset/record/train{}.tfrecords'.format(resize_height)
     create_records(image_dir,train_labels, train_record_output, resize_height, resize_width,shuffle,log)
     train_nums=get_example_nums(train_record_output)
     print("save train example nums={}".format(train_nums))
 
     # 产生val.record文件
-    image_dir='dataset/val'
-    val_labels = 'dataset/val.txt'  # 图片路径
-    val_record_output = 'dataset/record/val{}.tfrecords'.format(resize_height)
+    image_dir='E:/DL_data/distracted_driver_detection/dataset/val'
+    val_labels = 'E:/DL_data/distracted_driver_detection/dataset/val.txt'  # 图片路径
+    val_record_output = 'E:/DL_data/distracted_driver_detection/dataset/record/val{}.tfrecords'.format(resize_height)
     create_records(image_dir,val_labels, val_record_output, resize_height, resize_width,shuffle,log)
     val_nums=get_example_nums(val_record_output)
     print("save val example nums={}".format(val_nums))

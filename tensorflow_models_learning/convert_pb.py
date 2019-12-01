@@ -16,8 +16,8 @@ import tensorflow as tf
 from create_tf_record import *
 from tensorflow.python.framework import graph_util
 
-resize_height = 224   # 指定图片高度
-resize_width = 224  # 指定图片宽度
+resize_height = 299   # 指定图片高度
+resize_width = 299  # 指定图片宽度
 depths = 3
 
 def freeze_graph_test(pb_path, image_path):
@@ -41,7 +41,8 @@ def freeze_graph_test(pb_path, image_path):
             input_is_training_tensor = sess.graph.get_tensor_by_name("is_training:0")
 
             # 定义输出的张量名称
-            output_tensor_name = sess.graph.get_tensor_by_name("mobilenet_v1/Logits/SpatialSqueeze:0") #InceptionV3 ->  mobilenet_v1
+           # output_tensor_name = sess.graph.get_tensor_by_name("mobilenet_v1/Logits/SpatialSqueeze:0") #InceptionV3 ->  mobilenet_v1
+            output_tensor_name = sess.graph.get_tensor_by_name("InceptionV3/Logits/SpatialSqueeze:0") 
 
             # 读取测试图片
             im=read_image(image_path,resize_height,resize_width,normalization=True)
@@ -68,7 +69,7 @@ def freeze_graph(input_checkpoint,output_graph):
     # input_checkpoint = checkpoint.model_checkpoint_path #得ckpt文件路径
 
     # 指定输出的节点名称,该节点名称必须是原模型中存在的节点
-    output_node_names = "mobilenet_v1/Logits/SpatialSqueeze"  #InceptionV3 ->  mobilenet_v1
+    output_node_names = "InceptionV3/Logits/SpatialSqueeze"  #InceptionV3 ->  mobilenet_v1
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=True)
 
     with tf.Session() as sess:
@@ -96,7 +97,7 @@ def freeze_graph2(input_checkpoint,output_graph):
     # input_checkpoint = checkpoint.model_checkpoint_path #得ckpt文件路径
 
     # 指定输出的节点名称,该节点名称必须是原模型中存在的节点
-    output_node_names = "mobilenet_v1/Logits/SpatialSqueeze"  #InceptionV3 ->  mobilenet_v1
+    output_node_names = "InceptionV3/Logits/SpatialSqueeze"  #InceptionV3 ->  mobilenet_v1
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=True)
     graph = tf.get_default_graph() # 获得默认的图
     input_graph_def = graph.as_graph_def()  # 返回一个序列化的图代表当前的图
@@ -118,7 +119,8 @@ def freeze_graph2(input_checkpoint,output_graph):
 
 if __name__ == '__main__':
     # 输入ckpt模型路径
-    input_checkpoint='models/model.ckpt-10000'
+    #input_checkpoint='models/model.ckpt-20000'
+    input_checkpoint='models_InceptionV3/model.ckpt-10000'
     # 输出pb模型的路径
     out_pb_path="models/pb/frozen_model.pb"
     # 调用freeze_graph将ckpt转为pb

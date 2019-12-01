@@ -16,8 +16,8 @@ import tensorflow as tf
 from create_tf_record import *
 from tensorflow.python.framework import graph_util
 
-resize_height = 299  # 指定图片高度
-resize_width = 299  # 指定图片宽度
+resize_height = 224   # 指定图片高度
+resize_width = 224  # 指定图片宽度
 depths = 3
 
 def freeze_graph_test(pb_path, image_path):

@@ -70,13 +70,13 @@ def get_files_list(dir):
 
 
 if __name__ == '__main__':
-    train_dir = 'dataset/train'
-    train_txt = 'dataset/train.txt'
+    train_dir = 'E:/DL_data/distracted_driver_detection/dataset/train'
+    train_txt = 'E:/DL_data/distracted_driver_detection/dataset/train.txt'
     train_data = get_files_list(train_dir)
     write_txt(train_data, train_txt, mode='w')
 
-    val_dir = 'dataset/val'
-    val_txt = 'dataset/val.txt'
+    val_dir = 'E:/DL_data/distracted_driver_detection/dataset/valid'
+    val_txt = 'E:/DL_data/distracted_driver_detection/dataset/valid.txt'
     val_data = get_files_list(val_dir)
     write_txt(val_data, val_txt, mode='w')
 

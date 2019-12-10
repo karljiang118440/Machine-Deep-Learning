@@ -44,13 +44,13 @@ args = parser.parse_args()
 
 train_images_path = args.train_images
 train_segs_path = args.train_annotations
-train_batch_size = args.batch_size
+train_batch_size = 1  # args.batch_size > 1
 n_classes = args.n_classes
 input_height = args.input_height
 input_width = args.input_width
 validate = args.validate
 save_weights_path = args.save_weights_path
-epochs = args.epochs
+epochs = 1 #args.epochs > 1
 load_weights = args.load_weights
 
 optimizer_name = args.optimizer_name

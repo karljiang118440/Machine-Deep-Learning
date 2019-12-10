@@ -62,27 +62,11 @@ if validate:
 	val_batch_size = args.val_batch_size
 
 modelFns = {'enet':Models.ENet.ENet,
-			'fcn8':Models.FCN8.FCN8,
-			'fcn32':Models.FCN32.FCN32,
-			'unet':Models.Unet.Unet,
-			'mini_unet':Models.MiniUnet.MiniUnet,
-			'segnet':Models.Segnet.Segnet,
-			'pspnet':Models.PSPNet.PSPNet,
-			'icnet':Models.ICNet.ICNet,
-			'icnet_bn':Models.ICNet.ICNet_BN,
-			'vgg_segnet':Models.VGGSegnet.VGGSegnet,
-			'vgg_unet':Models.VGGUnet.VGGUnet,
-			'vgg_fcn8':Models.VGGFCN8.VGG_FCN8,
-			'vgg_fcn32':Models.VGGFCN32.VGG_FCN32,
-			'resnet50_segnet':Models.ResNet50_Segnet.Resnet_Segnet,
-			'resnet50_unet':Models.ResNet50_Unet.Resnet_Unet,
-			'resnet50_fcn8':Models.ResNet50_FCN8.Resnet_FCN8,
-			'resnet50_fcn32':Models.ResNet50_FCN32.Resnet_FCN32,
-			'mobilenet_unet':Models.MobileNetUnet.MobileNetUnet,
-			'mobilenet_fcn8':Models.MobileNetFCN8.MobileNetFCN8,
-			'mobilenet_fcn32':Models.MobileNetFCN32.MobileNetFCN32,
-			'mobilenet_segnet':Models.MobileNetSegnet.MobileNetSegnet
+			'fcn8':Models.FCN8.FCN8
 			}
+
+
+
 modelFN = modelFns[model_name]
 
 m = modelFN(n_classes, input_height=input_height, input_width=input_width)
@@ -116,3 +100,33 @@ else:
 		m.fit_generator(G, 50, validation_data=G2, validation_steps=20,  epochs=1)
 		m.save_weights(save_weights_path + "." + str(ep))
 		m.save(save_weights_path + ".model." + str(ep))
+
+
+
+'''
+modelFns = {'enet':Models.ENet.ENet,
+			'fcn8':Models.FCN8.FCN8,
+			'fcn32':Models.FCN32.FCN32,
+			'unet':Models.Unet.Unet,
+			'mini_unet':Models.MiniUnet.MiniUnet,
+			'segnet':Models.Segnet.Segnet,
+			'pspnet':Models.PSPNet.PSPNet,
+			'icnet':Models.ICNet.ICNet,
+			'icnet_bn':Models.ICNet.ICNet_BN,
+			'vgg_segnet':Models.VGGSegnet.VGGSegnet,
+			'vgg_unet':Models.VGGUnet.VGGUnet,
+			'vgg_fcn8':Models.VGGFCN8.VGG_FCN8,
+			'vgg_fcn32':Models.VGGFCN32.VGG_FCN32,
+			'resnet50_segnet':Models.ResNet50_Segnet.Resnet_Segnet,
+			'resnet50_unet':Models.ResNet50_Unet.Resnet_Unet,
+			'resnet50_fcn8':Models.ResNet50_FCN8.Resnet_FCN8,
+			'resnet50_fcn32':Models.ResNet50_FCN32.Resnet_FCN32,
+			'mobilenet_unet':Models.MobileNetUnet.MobileNetUnet,
+			'mobilenet_fcn8':Models.MobileNetFCN8.MobileNetFCN8,
+			'mobilenet_fcn32':Models.MobileNetFCN32.MobileNetFCN32,
+			'mobilenet_segnet':Models.MobileNetSegnet.MobileNetSegnet
+			}
+
+
+
+'''

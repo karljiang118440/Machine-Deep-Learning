@@ -1,0 +1,9 @@
+Use standard file APIs to check for files with this prefix.
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_1.jpg is: pre labels:[0],name:['c0'] score: [0.69145775]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_10.jpg is: pre labels:[8],name:['c8'] score: [0.48793837]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_2.jpg is: pre labels:[6],name:['c6'] score: [0.757445]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_3.jpg is: pre labels:[9],name:['c9'] score: [0.4769884]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_4.jpg is: pre labels:[7],name:['c7'] score: [0.81617546]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_7.jpg is: pre labels:[7],name:['c7'] score: [0.70151067]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_8.jpg is: pre labels:[3],name:['c3'] score: [0.5832216]
+E:/DL_data/distracted_driver_detection/dataset/test_images\img_9.jpg is: pre labels:[9],name:['c9'] score: [0.66940534]

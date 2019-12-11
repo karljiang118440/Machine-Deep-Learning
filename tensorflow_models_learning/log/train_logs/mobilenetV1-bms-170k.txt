@@ -1,0 +1,948 @@
+2019-12-10 18:05:28.775144: Step [59000]  train Loss : 2.639496, training accuracy :  0.125
+2019-12-10 18:05:30.922651: Step [59000]  val Loss : 2.612813, val accuracy :  0.177696
+2019-12-10 18:05:46.749165: Step [59100]  train Loss : 2.745945, training accuracy :  0.28125
+2019-12-10 18:06:02.564363: Step [59200]  train Loss : 2.964107, training accuracy :  0.21875
+2019-12-10 18:06:18.460114: Step [59300]  train Loss : 2.710417, training accuracy :  0.15625
+2019-12-10 18:06:34.289401: Step [59400]  train Loss : 2.766776, training accuracy :  0.15625
+2019-12-10 18:06:50.157485: Step [59500]  train Loss : 2.883869, training accuracy :  0.0625
+2019-12-10 18:06:52.305690: Step [59500]  val Loss : 2.612932, val accuracy :  0.178922
+2019-12-10 18:07:08.183987: Step [59600]  train Loss : 2.703486, training accuracy :  0.1875
+2019-12-10 18:07:24.039659: Step [59700]  train Loss : 2.749989, training accuracy :  0.09375
+2019-12-10 18:07:39.920083: Step [59800]  train Loss : 2.598188, training accuracy :  0.21875
+2019-12-10 18:07:55.801637: Step [59900]  train Loss : 2.808090, training accuracy :  0.125
+2019-12-10 18:08:11.669622: Step [60000]  train Loss : 2.740003, training accuracy :  0.125
+2019-12-10 18:08:13.819351: Step [60000]  val Loss : 2.611366, val accuracy :  0.177696
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-60000
+2019-12-10 18:08:33.286875: Step [60100]  train Loss : 2.821275, training accuracy :  0.1875
+2019-12-10 18:08:49.152021: Step [60200]  train Loss : 2.889642, training accuracy :  0.15625
+2019-12-10 18:09:05.019070: Step [60300]  train Loss : 2.845351, training accuracy :  0.1875
+2019-12-10 18:09:20.896633: Step [60400]  train Loss : 2.802415, training accuracy :  0.21875
+2019-12-10 18:09:36.761092: Step [60500]  train Loss : 2.789664, training accuracy :  0.3125
+2019-12-10 18:09:38.909705: Step [60500]  val Loss : 2.609450, val accuracy :  0.177696
+2019-12-10 18:09:54.748596: Step [60600]  train Loss : 2.616697, training accuracy :  0.125
+2019-12-10 18:10:10.563085: Step [60700]  train Loss : 2.986147, training accuracy :  0.1875
+2019-12-10 18:10:26.426719: Step [60800]  train Loss : 2.761436, training accuracy :  0.09375
+2019-12-10 18:10:42.278302: Step [60900]  train Loss : 2.785560, training accuracy :  0.15625
+2019-12-10 18:10:58.117998: Step [61000]  train Loss : 2.767718, training accuracy :  0.21875
+2019-12-10 18:11:00.278448: Step [61000]  val Loss : 2.608919, val accuracy :  0.177696
+2019-12-10 18:11:16.178804: Step [61100]  train Loss : 2.887493, training accuracy :  0.15625
+2019-12-10 18:11:32.057205: Step [61200]  train Loss : 2.895262, training accuracy :  0.21875
+2019-12-10 18:11:47.888181: Step [61300]  train Loss : 2.636232, training accuracy :  0.21875
+2019-12-10 18:12:03.712584: Step [61400]  train Loss : 2.898589, training accuracy :  0.25
+2019-12-10 18:12:19.580953: Step [61500]  train Loss : 2.784144, training accuracy :  0.0625
+2019-12-10 18:12:21.723220: Step [61500]  val Loss : 2.608855, val accuracy :  0.181985
+2019-12-10 18:12:37.577726: Step [61600]  train Loss : 2.736186, training accuracy :  0.1875
+2019-12-10 18:12:53.443200: Step [61700]  train Loss : 2.841985, training accuracy :  0.09375
+2019-12-10 18:13:09.308604: Step [61800]  train Loss : 2.819147, training accuracy :  0.15625
+2019-12-10 18:13:25.147536: Step [61900]  train Loss : 2.696297, training accuracy :  0.21875
+2019-12-10 18:13:41.024490: Step [62000]  train Loss : 2.872580, training accuracy :  0.15625
+2019-12-10 18:13:43.174891: Step [62000]  val Loss : 2.608745, val accuracy :  0.183211
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-62000
+2019-12-10 18:14:02.388913: Step [62100]  train Loss : 2.758986, training accuracy :  0.125
+2019-12-10 18:14:18.259411: Step [62200]  train Loss : 2.780652, training accuracy :  0.1875
+2019-12-10 18:14:34.189400: Step [62300]  train Loss : 2.813963, training accuracy :  0.125
+2019-12-10 18:14:50.054274: Step [62400]  train Loss : 2.982075, training accuracy :  0.125
+2019-12-10 18:15:05.910156: Step [62500]  train Loss : 2.738836, training accuracy :  0.21875
+2019-12-10 18:15:08.056185: Step [62500]  val Loss : 2.605052, val accuracy :  0.177696
+2019-12-10 18:15:23.866836: Step [62600]  train Loss : 2.564944, training accuracy :  0.28125
+2019-12-10 18:15:39.675211: Step [62700]  train Loss : 2.903317, training accuracy :  0.09375
+2019-12-10 18:15:55.512106: Step [62800]  train Loss : 2.837331, training accuracy :  0.09375
+2019-12-10 18:16:11.390354: Step [62900]  train Loss : 2.773733, training accuracy :  0.0625
+2019-12-10 18:16:27.274945: Step [63000]  train Loss : 2.768296, training accuracy :  0.25
+2019-12-10 18:16:29.427334: Step [63000]  val Loss : 2.606193, val accuracy :  0.175245
+2019-12-10 18:16:45.244267: Step [63100]  train Loss : 2.553033, training accuracy :  0.28125
+2019-12-10 18:17:01.111407: Step [63200]  train Loss : 2.683262, training accuracy :  0.09375
+2019-12-10 18:17:17.049811: Step [63300]  train Loss : 2.939373, training accuracy :  0.09375
+2019-12-10 18:17:32.947883: Step [63400]  train Loss : 2.864675, training accuracy :  0.25
+2019-12-10 18:17:48.867447: Step [63500]  train Loss : 2.775784, training accuracy :  0.21875
+2019-12-10 18:17:51.015613: Step [63500]  val Loss : 2.604057, val accuracy :  0.177083
+2019-12-10 18:18:06.883756: Step [63600]  train Loss : 2.657516, training accuracy :  0.125
+2019-12-10 18:18:22.742361: Step [63700]  train Loss : 2.837260, training accuracy :  0.1875
+2019-12-10 18:18:38.594937: Step [63800]  train Loss : 2.752995, training accuracy :  0.1875
+2019-12-10 18:18:54.513122: Step [63900]  train Loss : 2.688233, training accuracy :  0.15625
+2019-12-10 18:19:10.368582: Step [64000]  train Loss : 2.905556, training accuracy :  0.21875
+2019-12-10 18:19:12.523075: Step [64000]  val Loss : 2.603195, val accuracy :  0.18076
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-64000
+2019-12-10 18:19:31.892431: Step [64100]  train Loss : 2.855119, training accuracy :  0.3125
+2019-12-10 18:19:47.724508: Step [64200]  train Loss : 2.708755, training accuracy :  0.3125
+2019-12-10 18:20:03.560250: Step [64300]  train Loss : 2.885917, training accuracy :  0.3125
+2019-12-10 18:20:19.413395: Step [64400]  train Loss : 2.768066, training accuracy :  0.125
+2019-12-10 18:20:35.256676: Step [64500]  train Loss : 2.812520, training accuracy :  0.21875
+2019-12-10 18:20:37.418204: Step [64500]  val Loss : 2.603937, val accuracy :  0.178309
+2019-12-10 18:20:53.266366: Step [64600]  train Loss : 2.722313, training accuracy :  0.25
+2019-12-10 18:21:09.136862: Step [64700]  train Loss : 2.791373, training accuracy :  0.1875
+2019-12-10 18:21:25.015076: Step [64800]  train Loss : 2.820720, training accuracy :  0.0625
+2019-12-10 18:21:40.908135: Step [64900]  train Loss : 2.612426, training accuracy :  0.09375
+2019-12-10 18:21:56.820774: Step [65000]  train Loss : 2.761816, training accuracy :  0.1875
+2019-12-10 18:21:58.971847: Step [65000]  val Loss : 2.602901, val accuracy :  0.183211
+2019-12-10 18:22:14.914770: Step [65100]  train Loss : 2.842628, training accuracy :  0.28125
+2019-12-10 18:22:30.768266: Step [65200]  train Loss : 2.826262, training accuracy :  0.21875
+2019-12-10 18:22:46.581430: Step [65300]  train Loss : 2.638836, training accuracy :  0.28125
+2019-12-10 18:23:02.440142: Step [65400]  train Loss : 2.882123, training accuracy :  0.28125
+2019-12-10 18:23:18.295648: Step [65500]  train Loss : 2.824738, training accuracy :  0.21875
+2019-12-10 18:23:20.445521: Step [65500]  val Loss : 2.601215, val accuracy :  0.188113
+2019-12-10 18:23:36.228210: Step [65600]  train Loss : 2.917512, training accuracy :  0.09375
+2019-12-10 18:23:52.053780: Step [65700]  train Loss : 2.670524, training accuracy :  0.21875
+2019-12-10 18:24:07.889551: Step [65800]  train Loss : 2.844962, training accuracy :  0.125
+2019-12-10 18:24:23.667947: Step [65900]  train Loss : 2.830222, training accuracy :  0.34375
+2019-12-10 18:24:39.487257: Step [66000]  train Loss : 2.826272, training accuracy :  0.28125
+2019-12-10 18:24:41.629206: Step [66000]  val Loss : 2.601254, val accuracy :  0.183824
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-66000
+2019-12-10 18:25:00.754993: Step [66100]  train Loss : 2.715459, training accuracy :  0.28125
+2019-12-10 18:25:16.607925: Step [66200]  train Loss : 2.843719, training accuracy :  0.21875
+2019-12-10 18:25:32.454648: Step [66300]  train Loss : 2.721500, training accuracy :  0.25
+2019-12-10 18:25:48.309997: Step [66400]  train Loss : 2.839392, training accuracy :  0.28125
+2019-12-10 18:26:04.137676: Step [66500]  train Loss : 2.937053, training accuracy :  0.0625
+2019-12-10 18:26:06.294382: Step [66500]  val Loss : 2.600816, val accuracy :  0.182598
+2019-12-10 18:26:22.081229: Step [66600]  train Loss : 2.888328, training accuracy :  0.15625
+2019-12-10 18:26:37.941117: Step [66700]  train Loss : 2.673080, training accuracy :  0.25
+2019-12-10 18:26:53.717505: Step [66800]  train Loss : 2.866360, training accuracy :  0.125
+2019-12-10 18:27:09.520050: Step [66900]  train Loss : 2.817113, training accuracy :  0.09375
+2019-12-10 18:27:25.358021: Step [67000]  train Loss : 2.908078, training accuracy :  0.125
+2019-12-10 18:27:27.504952: Step [67000]  val Loss : 2.599892, val accuracy :  0.183824
+2019-12-10 18:27:43.364716: Step [67100]  train Loss : 2.787658, training accuracy :  0.125
+2019-12-10 18:27:59.182843: Step [67200]  train Loss : 2.684577, training accuracy :  0.0625
+2019-12-10 18:28:15.034199: Step [67300]  train Loss : 2.727256, training accuracy :  0.21875
+2019-12-10 18:28:30.877888: Step [67400]  train Loss : 2.769276, training accuracy :  0.03125
+2019-12-10 18:28:46.715936: Step [67500]  train Loss : 2.706871, training accuracy :  0.375
+2019-12-10 18:28:48.867512: Step [67500]  val Loss : 2.598906, val accuracy :  0.185662
+2019-12-10 18:29:04.644051: Step [67600]  train Loss : 2.517123, training accuracy :  0.125
+2019-12-10 18:29:20.473892: Step [67700]  train Loss : 2.952542, training accuracy :  0.34375
+2019-12-10 18:29:36.317662: Step [67800]  train Loss : 2.769107, training accuracy :  0.25
+2019-12-10 18:29:52.180576: Step [67900]  train Loss : 2.708315, training accuracy :  0.21875
+2019-12-10 18:30:08.008093: Step [68000]  train Loss : 2.745370, training accuracy :  0.28125
+2019-12-10 18:30:10.166936: Step [68000]  val Loss : 2.598076, val accuracy :  0.184436
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-68000
+2019-12-10 18:30:29.400221: Step [68100]  train Loss : 2.813681, training accuracy :  0.25
+2019-12-10 18:30:45.240508: Step [68200]  train Loss : 2.773059, training accuracy :  0.21875
+2019-12-10 18:31:01.053210: Step [68300]  train Loss : 2.832912, training accuracy :  0.15625
+2019-12-10 18:31:16.887605: Step [68400]  train Loss : 2.540627, training accuracy :  0.21875
+2019-12-10 18:31:32.734446: Step [68500]  train Loss : 2.685128, training accuracy :  0.34375
+2019-12-10 18:31:34.881098: Step [68500]  val Loss : 2.597498, val accuracy :  0.184436
+2019-12-10 18:31:50.698052: Step [68600]  train Loss : 2.725217, training accuracy :  0.125
+2019-12-10 18:32:06.522476: Step [68700]  train Loss : 2.768106, training accuracy :  0.21875
+2019-12-10 18:32:22.371817: Step [68800]  train Loss : 2.863566, training accuracy :  0.15625
+2019-12-10 18:32:38.228791: Step [68900]  train Loss : 2.763527, training accuracy :  0.125
+2019-12-10 18:32:54.039468: Step [69000]  train Loss : 2.750658, training accuracy :  0.25
+2019-12-10 18:32:56.176980: Step [69000]  val Loss : 2.597595, val accuracy :  0.188113
+2019-12-10 18:33:11.900562: Step [69100]  train Loss : 2.923926, training accuracy :  0.21875
+2019-12-10 18:33:27.683061: Step [69200]  train Loss : 2.643855, training accuracy :  0.09375
+2019-12-10 18:33:43.476787: Step [69300]  train Loss : 2.798627, training accuracy :  0.125
+2019-12-10 18:33:59.289689: Step [69400]  train Loss : 2.734067, training accuracy :  0.1875
+2019-12-10 18:34:15.046033: Step [69500]  train Loss : 2.795031, training accuracy :  0.25
+2019-12-10 18:34:17.190665: Step [69500]  val Loss : 2.594168, val accuracy :  0.193015
+2019-12-10 18:34:32.981066: Step [69600]  train Loss : 2.717981, training accuracy :  0.0625
+2019-12-10 18:34:48.801662: Step [69700]  train Loss : 2.743418, training accuracy :  0.21875
+2019-12-10 18:35:04.604493: Step [69800]  train Loss : 2.731797, training accuracy :  0.15625
+2019-12-10 18:35:20.429618: Step [69900]  train Loss : 2.585100, training accuracy :  0.28125
+2019-12-10 18:35:36.214447: Step [70000]  train Loss : 2.772717, training accuracy :  0.25
+2019-12-10 18:35:38.368145: Step [70000]  val Loss : 2.595617, val accuracy :  0.193015
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-70000
+2019-12-10 18:35:57.601486: Step [70100]  train Loss : 2.879085, training accuracy :  0.25
+2019-12-10 18:36:13.445506: Step [70200]  train Loss : 2.682692, training accuracy :  0.09375
+2019-12-10 18:36:29.315633: Step [70300]  train Loss : 2.648956, training accuracy :  0.15625
+2019-12-10 18:36:45.149993: Step [70400]  train Loss : 2.916183, training accuracy :  0.15625
+2019-12-10 18:37:00.995166: Step [70500]  train Loss : 2.764695, training accuracy :  0.1875
+2019-12-10 18:37:03.142331: Step [70500]  val Loss : 2.593318, val accuracy :  0.1875
+2019-12-10 18:37:18.952754: Step [70600]  train Loss : 2.821049, training accuracy :  0.21875
+2019-12-10 18:37:34.766222: Step [70700]  train Loss : 2.915022, training accuracy :  0.1875
+2019-12-10 18:37:50.593133: Step [70800]  train Loss : 2.733167, training accuracy :  0.09375
+2019-12-10 18:38:06.424370: Step [70900]  train Loss : 2.828697, training accuracy :  0.25
+2019-12-10 18:38:22.215108: Step [71000]  train Loss : 2.690954, training accuracy :  0.1875
+2019-12-10 18:38:24.341616: Step [71000]  val Loss : 2.592282, val accuracy :  0.1875
+2019-12-10 18:38:40.110457: Step [71100]  train Loss : 2.817802, training accuracy :  0.21875
+2019-12-10 18:38:55.939218: Step [71200]  train Loss : 2.706877, training accuracy :  0.21875
+2019-12-10 18:39:11.746098: Step [71300]  train Loss : 2.945264, training accuracy :  0.125
+2019-12-10 18:39:27.517712: Step [71400]  train Loss : 2.758876, training accuracy :  0.0625
+2019-12-10 18:39:43.285608: Step [71500]  train Loss : 2.732126, training accuracy :  0.125
+2019-12-10 18:39:45.433039: Step [71500]  val Loss : 2.591424, val accuracy :  0.189951
+2019-12-10 18:40:01.221265: Step [71600]  train Loss : 2.710404, training accuracy :  0.21875
+2019-12-10 18:40:17.008745: Step [71700]  train Loss : 2.918013, training accuracy :  0.15625
+2019-12-10 18:40:32.805572: Step [71800]  train Loss : 2.786535, training accuracy :  0.21875
+2019-12-10 18:40:48.631140: Step [71900]  train Loss : 2.598848, training accuracy :  0.21875
+2019-12-10 18:41:04.466344: Step [72000]  train Loss : 2.696964, training accuracy :  0.125
+2019-12-10 18:41:06.609493: Step [72000]  val Loss : 2.590217, val accuracy :  0.19424
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-72000
+2019-12-10 18:41:25.804887: Step [72100]  train Loss : 2.678782, training accuracy :  0.125
+2019-12-10 18:41:41.769098: Step [72200]  train Loss : 2.819865, training accuracy :  0.28125
+2019-12-10 18:41:57.601588: Step [72300]  train Loss : 2.599234, training accuracy :  0.03125
+2019-12-10 18:42:13.408478: Step [72400]  train Loss : 2.731643, training accuracy :  0.1875
+2019-12-10 18:42:29.242157: Step [72500]  train Loss : 2.530649, training accuracy :  0.25
+2019-12-10 18:42:31.373821: Step [72500]  val Loss : 2.588511, val accuracy :  0.192402
+2019-12-10 18:42:47.133538: Step [72600]  train Loss : 2.709239, training accuracy :  0.21875
+2019-12-10 18:43:02.903718: Step [72700]  train Loss : 2.607704, training accuracy :  0.34375
+2019-12-10 18:43:18.666309: Step [72800]  train Loss : 2.731701, training accuracy :  0.1875
+2019-12-10 18:43:34.483083: Step [72900]  train Loss : 2.786709, training accuracy :  0.25
+2019-12-10 18:43:50.261548: Step [73000]  train Loss : 2.821619, training accuracy :  0.1875
+2019-12-10 18:43:52.411696: Step [73000]  val Loss : 2.588334, val accuracy :  0.198529
+2019-12-10 18:44:08.167543: Step [73100]  train Loss : 2.746680, training accuracy :  0.0625
+2019-12-10 18:44:23.981583: Step [73200]  train Loss : 2.661820, training accuracy :  0.1875
+2019-12-10 18:44:39.706444: Step [73300]  train Loss : 2.927027, training accuracy :  0.25
+2019-12-10 18:44:55.508443: Step [73400]  train Loss : 2.826129, training accuracy :  0.21875
+2019-12-10 18:45:11.303218: Step [73500]  train Loss : 2.738247, training accuracy :  0.09375
+2019-12-10 18:45:13.450957: Step [73500]  val Loss : 2.587576, val accuracy :  0.201593
+2019-12-10 18:45:29.252127: Step [73600]  train Loss : 2.684131, training accuracy :  0.09375
+2019-12-10 18:45:45.024899: Step [73700]  train Loss : 2.501573, training accuracy :  0.34375
+2019-12-10 18:46:00.831652: Step [73800]  train Loss : 2.588903, training accuracy :  0.125
+2019-12-10 18:46:16.587860: Step [73900]  train Loss : 2.635400, training accuracy :  0.21875
+2019-12-10 18:46:32.342631: Step [74000]  train Loss : 2.722591, training accuracy :  0.21875
+2019-12-10 18:46:34.470371: Step [74000]  val Loss : 2.585433, val accuracy :  0.200368
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-74000
+2019-12-10 18:46:53.875350: Step [74100]  train Loss : 2.790440, training accuracy :  0.25
+2019-12-10 18:47:09.650880: Step [74200]  train Loss : 2.804341, training accuracy :  0.15625
+2019-12-10 18:47:25.450300: Step [74300]  train Loss : 2.717752, training accuracy :  0.1875
+2019-12-10 18:47:41.242452: Step [74400]  train Loss : 2.817534, training accuracy :  0.1875
+2019-12-10 18:47:57.093768: Step [74500]  train Loss : 3.024581, training accuracy :  0.1875
+2019-12-10 18:47:59.235542: Step [74500]  val Loss : 2.586170, val accuracy :  0.197917
+2019-12-10 18:48:15.064135: Step [74600]  train Loss : 2.751468, training accuracy :  0.1875
+2019-12-10 18:48:30.899674: Step [74700]  train Loss : 2.727772, training accuracy :  0.1875
+2019-12-10 18:48:46.733595: Step [74800]  train Loss : 2.707871, training accuracy :  0.21875
+2019-12-10 18:49:02.570427: Step [74900]  train Loss : 2.776540, training accuracy :  0.15625
+2019-12-10 18:49:18.352101: Step [75000]  train Loss : 2.721247, training accuracy :  0.15625
+2019-12-10 18:49:20.507385: Step [75000]  val Loss : 2.585486, val accuracy :  0.202206
+2019-12-10 18:49:36.325028: Step [75100]  train Loss : 2.781798, training accuracy :  0.09375
+2019-12-10 18:49:52.200742: Step [75200]  train Loss : 2.835000, training accuracy :  0.125
+2019-12-10 18:50:08.008444: Step [75300]  train Loss : 2.828282, training accuracy :  0.21875
+2019-12-10 18:50:23.857242: Step [75400]  train Loss : 2.676178, training accuracy :  0.34375
+2019-12-10 18:50:39.672809: Step [75500]  train Loss : 2.678736, training accuracy :  0.34375
+2019-12-10 18:50:41.840755: Step [75500]  val Loss : 2.584126, val accuracy :  0.201593
+2019-12-10 18:50:57.619454: Step [75600]  train Loss : 2.823534, training accuracy :  0.3125
+2019-12-10 18:51:13.397574: Step [75700]  train Loss : 2.753340, training accuracy :  0.1875
+2019-12-10 18:51:29.250999: Step [75800]  train Loss : 2.673955, training accuracy :  0.09375
+2019-12-10 18:51:45.073512: Step [75900]  train Loss : 2.806760, training accuracy :  0.25
+2019-12-10 18:52:00.879272: Step [76000]  train Loss : 2.770977, training accuracy :  0.21875
+2019-12-10 18:52:03.031434: Step [76000]  val Loss : 2.583112, val accuracy :  0.197304
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-76000
+2019-12-10 18:52:22.236183: Step [76100]  train Loss : 2.816521, training accuracy :  0.28125
+2019-12-10 18:52:38.050466: Step [76200]  train Loss : 2.694774, training accuracy :  0.25
+2019-12-10 18:52:53.873735: Step [76300]  train Loss : 2.773859, training accuracy :  0.03125
+2019-12-10 18:53:09.702182: Step [76400]  train Loss : 2.687212, training accuracy :  0.1875
+2019-12-10 18:53:25.538705: Step [76500]  train Loss : 2.686287, training accuracy :  0.1875
+2019-12-10 18:53:27.693282: Step [76500]  val Loss : 2.582680, val accuracy :  0.196078
+2019-12-10 18:53:43.427216: Step [76600]  train Loss : 2.728916, training accuracy :  0.25
+2019-12-10 18:53:59.198940: Step [76700]  train Loss : 2.732060, training accuracy :  0.28125
+2019-12-10 18:54:14.992183: Step [76800]  train Loss : 2.800366, training accuracy :  0.28125
+2019-12-10 18:54:30.810336: Step [76900]  train Loss : 2.620517, training accuracy :  0.34375
+2019-12-10 18:54:46.608016: Step [77000]  train Loss : 2.573173, training accuracy :  0.15625
+2019-12-10 18:54:48.757307: Step [77000]  val Loss : 2.581189, val accuracy :  0.199755
+2019-12-10 18:55:04.556516: Step [77100]  train Loss : 2.793392, training accuracy :  0.125
+2019-12-10 18:55:20.400108: Step [77200]  train Loss : 2.793269, training accuracy :  0.25
+2019-12-10 18:55:36.176085: Step [77300]  train Loss : 2.700598, training accuracy :  0.15625
+2019-12-10 18:55:52.005444: Step [77400]  train Loss : 2.697626, training accuracy :  0.25
+2019-12-10 18:56:07.816571: Step [77500]  train Loss : 2.544988, training accuracy :  0.28125
+2019-12-10 18:56:09.960466: Step [77500]  val Loss : 2.581256, val accuracy :  0.201593
+2019-12-10 18:56:25.764089: Step [77600]  train Loss : 2.789039, training accuracy :  0.21875
+2019-12-10 18:56:41.629029: Step [77700]  train Loss : 2.749961, training accuracy :  0.125
+2019-12-10 18:56:57.492492: Step [77800]  train Loss : 2.778912, training accuracy :  0.1875
+2019-12-10 18:57:13.312952: Step [77900]  train Loss : 2.877550, training accuracy :  0.15625
+2019-12-10 18:57:29.109836: Step [78000]  train Loss : 2.788128, training accuracy :  0.09375
+2019-12-10 18:57:31.249320: Step [78000]  val Loss : 2.578888, val accuracy :  0.205882
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-78000
+2019-12-10 18:57:50.493016: Step [78100]  train Loss : 2.645835, training accuracy :  0.28125
+2019-12-10 18:58:06.315930: Step [78200]  train Loss : 2.810831, training accuracy :  0.125
+2019-12-10 18:58:22.136192: Step [78300]  train Loss : 2.849399, training accuracy :  0.25
+2019-12-10 18:58:37.933181: Step [78400]  train Loss : 2.724260, training accuracy :  0.3125
+2019-12-10 18:58:53.729046: Step [78500]  train Loss : 2.657098, training accuracy :  0.0625
+2019-12-10 18:58:55.879280: Step [78500]  val Loss : 2.579623, val accuracy :  0.202819
+2019-12-10 18:59:11.694234: Step [78600]  train Loss : 2.808064, training accuracy :  0.28125
+2019-12-10 18:59:27.490138: Step [78700]  train Loss : 2.881881, training accuracy :  0.125
+2019-12-10 18:59:43.304719: Step [78800]  train Loss : 2.831827, training accuracy :  0.09375
+2019-12-10 18:59:59.111073: Step [78900]  train Loss : 2.793984, training accuracy :  0.25
+2019-12-10 19:00:14.924198: Step [79000]  train Loss : 2.765734, training accuracy :  0.125
+2019-12-10 19:00:17.066489: Step [79000]  val Loss : 2.578529, val accuracy :  0.203431
+2019-12-10 19:00:32.874580: Step [79100]  train Loss : 2.711330, training accuracy :  0.25
+2019-12-10 19:00:48.660259: Step [79200]  train Loss : 2.780855, training accuracy :  0.15625
+2019-12-10 19:01:04.498084: Step [79300]  train Loss : 2.753162, training accuracy :  0.28125
+2019-12-10 19:01:20.329146: Step [79400]  train Loss : 2.642548, training accuracy :  0.125
+2019-12-10 19:01:36.074621: Step [79500]  train Loss : 2.899886, training accuracy :  0.03125
+2019-12-10 19:01:38.241523: Step [79500]  val Loss : 2.576448, val accuracy :  0.202819
+2019-12-10 19:01:53.990356: Step [79600]  train Loss : 2.755916, training accuracy :  0.15625
+2019-12-10 19:02:09.760628: Step [79700]  train Loss : 2.833770, training accuracy :  0.15625
+2019-12-10 19:02:25.527301: Step [79800]  train Loss : 2.725376, training accuracy :  0.21875
+2019-12-10 19:02:41.304805: Step [79900]  train Loss : 2.777750, training accuracy :  0.28125
+2019-12-10 19:02:57.113370: Step [80000]  train Loss : 2.759125, training accuracy :  0.0625
+2019-12-10 19:02:59.276243: Step [80000]  val Loss : 2.576215, val accuracy :  0.199142
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-80000
+2019-12-10 19:03:18.390028: Step [80100]  train Loss : 2.747002, training accuracy :  0.3125
+2019-12-10 19:03:34.195951: Step [80200]  train Loss : 2.600865, training accuracy :  0.1875
+2019-12-10 19:03:49.991993: Step [80300]  train Loss : 2.701504, training accuracy :  0.25
+2019-12-10 19:04:05.734998: Step [80400]  train Loss : 2.715172, training accuracy :  0.21875
+2019-12-10 19:04:21.516576: Step [80500]  train Loss : 2.740314, training accuracy :  0.28125
+2019-12-10 19:04:23.673044: Step [80500]  val Loss : 2.574427, val accuracy :  0.20098
+2019-12-10 19:04:39.457470: Step [80600]  train Loss : 2.691334, training accuracy :  0.1875
+2019-12-10 19:04:55.265869: Step [80700]  train Loss : 2.867492, training accuracy :  0.21875
+2019-12-10 19:05:11.097010: Step [80800]  train Loss : 2.707292, training accuracy :  0.125
+2019-12-10 19:05:26.935414: Step [80900]  train Loss : 2.721925, training accuracy :  0.3125
+2019-12-10 19:05:42.710649: Step [81000]  train Loss : 2.767410, training accuracy :  0.40625
+2019-12-10 19:05:44.866165: Step [81000]  val Loss : 2.574113, val accuracy :  0.207108
+2019-12-10 19:06:00.608479: Step [81100]  train Loss : 2.718975, training accuracy :  0.25
+2019-12-10 19:06:16.409478: Step [81200]  train Loss : 2.735097, training accuracy :  0.28125
+2019-12-10 19:06:32.162261: Step [81300]  train Loss : 2.768888, training accuracy :  0.0625
+2019-12-10 19:06:47.954706: Step [81400]  train Loss : 2.631438, training accuracy :  0.25
+2019-12-10 19:07:03.804041: Step [81500]  train Loss : 2.873700, training accuracy :  0.15625
+2019-12-10 19:07:05.950846: Step [81500]  val Loss : 2.572154, val accuracy :  0.20527
+2019-12-10 19:07:21.751039: Step [81600]  train Loss : 2.791257, training accuracy :  0.125
+2019-12-10 19:07:37.552200: Step [81700]  train Loss : 2.921474, training accuracy :  0.1875
+2019-12-10 19:07:53.368172: Step [81800]  train Loss : 2.764305, training accuracy :  0.25
+2019-12-10 19:08:09.124007: Step [81900]  train Loss : 2.658834, training accuracy :  0.21875
+2019-12-10 19:08:24.876965: Step [82000]  train Loss : 2.809380, training accuracy :  0.1875
+2019-12-10 19:08:27.039035: Step [82000]  val Loss : 2.571861, val accuracy :  0.204044
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-82000
+2019-12-10 19:08:46.363991: Step [82100]  train Loss : 2.656167, training accuracy :  0.125
+2019-12-10 19:09:02.182018: Step [82200]  train Loss : 2.861500, training accuracy :  0.0625
+2019-12-10 19:09:18.020821: Step [82300]  train Loss : 2.797436, training accuracy :  0.28125
+2019-12-10 19:09:33.816901: Step [82400]  train Loss : 2.768391, training accuracy :  0.25
+2019-12-10 19:09:49.673145: Step [82500]  train Loss : 2.782488, training accuracy :  0.1875
+2019-12-10 19:09:51.827266: Step [82500]  val Loss : 2.570809, val accuracy :  0.204044
+2019-12-10 19:10:07.599666: Step [82600]  train Loss : 2.827876, training accuracy :  0.34375
+2019-12-10 19:10:23.415639: Step [82700]  train Loss : 2.817730, training accuracy :  0.15625
+2019-12-10 19:10:39.202398: Step [82800]  train Loss : 2.858227, training accuracy :  0.21875
+2019-12-10 19:10:54.979458: Step [82900]  train Loss : 2.948640, training accuracy :  0.125
+2019-12-10 19:11:10.757826: Step [83000]  train Loss : 2.833703, training accuracy :  0.28125
+2019-12-10 19:11:12.895588: Step [83000]  val Loss : 2.570311, val accuracy :  0.201593
+2019-12-10 19:11:28.652915: Step [83100]  train Loss : 2.828016, training accuracy :  0.1875
+2019-12-10 19:11:44.425457: Step [83200]  train Loss : 2.806653, training accuracy :  0.21875
+2019-12-10 19:12:00.221218: Step [83300]  train Loss : 2.928265, training accuracy :  0.25
+2019-12-10 19:12:16.055542: Step [83400]  train Loss : 2.863032, training accuracy :  0.1875
+2019-12-10 19:12:31.877787: Step [83500]  train Loss : 2.623570, training accuracy :  0.25
+2019-12-10 19:12:34.020249: Step [83500]  val Loss : 2.569898, val accuracy :  0.207108
+2019-12-10 19:12:49.811729: Step [83600]  train Loss : 2.808169, training accuracy :  0.125
+2019-12-10 19:13:05.569498: Step [83700]  train Loss : 2.716892, training accuracy :  0.1875
+2019-12-10 19:13:21.392062: Step [83800]  train Loss : 2.814579, training accuracy :  0.125
+2019-12-10 19:13:37.148260: Step [83900]  train Loss : 2.576532, training accuracy :  0.28125
+2019-12-10 19:13:52.938488: Step [84000]  train Loss : 2.877076, training accuracy :  0.1875
+2019-12-10 19:13:55.077590: Step [84000]  val Loss : 2.567572, val accuracy :  0.20527
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-84000
+2019-12-10 19:14:14.240934: Step [84100]  train Loss : 2.776136, training accuracy :  0.125
+2019-12-10 19:14:30.086468: Step [84200]  train Loss : 2.681450, training accuracy :  0.25
+2019-12-10 19:14:45.917147: Step [84300]  train Loss : 2.664286, training accuracy :  0.15625
+2019-12-10 19:15:01.777992: Step [84400]  train Loss : 2.759384, training accuracy :  0.21875
+2019-12-10 19:15:17.575017: Step [84500]  train Loss : 2.922180, training accuracy :  0.09375
+2019-12-10 19:15:19.717254: Step [84500]  val Loss : 2.568811, val accuracy :  0.207721
+2019-12-10 19:15:35.468385: Step [84600]  train Loss : 2.902683, training accuracy :  0.125
+2019-12-10 19:15:51.260395: Step [84700]  train Loss : 2.693559, training accuracy :  0.1875
+2019-12-10 19:16:07.068159: Step [84800]  train Loss : 2.881009, training accuracy :  0.15625
+2019-12-10 19:16:22.862222: Step [84900]  train Loss : 2.797210, training accuracy :  0.25
+2019-12-10 19:16:38.664990: Step [85000]  train Loss : 2.743971, training accuracy :  0.25
+2019-12-10 19:16:40.826609: Step [85000]  val Loss : 2.566941, val accuracy :  0.203431
+2019-12-10 19:16:56.599002: Step [85100]  train Loss : 2.923562, training accuracy :  0.15625
+2019-12-10 19:17:12.418767: Step [85200]  train Loss : 2.816383, training accuracy :  0.1875
+2019-12-10 19:17:28.206021: Step [85300]  train Loss : 2.660423, training accuracy :  0.21875
+2019-12-10 19:17:44.012099: Step [85400]  train Loss : 2.720777, training accuracy :  0.15625
+2019-12-10 19:17:59.792427: Step [85500]  train Loss : 2.867505, training accuracy :  0.21875
+2019-12-10 19:18:01.928338: Step [85500]  val Loss : 2.565649, val accuracy :  0.20527
+2019-12-10 19:18:17.738285: Step [85600]  train Loss : 2.715147, training accuracy :  0.28125
+2019-12-10 19:18:33.572666: Step [85700]  train Loss : 2.839484, training accuracy :  0.125
+2019-12-10 19:18:49.343642: Step [85800]  train Loss : 2.868531, training accuracy :  0.21875
+2019-12-10 19:19:05.122218: Step [85900]  train Loss : 2.754771, training accuracy :  0.1875
+2019-12-10 19:19:20.934513: Step [86000]  train Loss : 2.794936, training accuracy :  0.21875
+2019-12-10 19:19:23.082803: Step [86000]  val Loss : 2.563283, val accuracy :  0.210172
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-86000
+2019-12-10 19:19:42.165397: Step [86100]  train Loss : 2.571982, training accuracy :  0.3125
+2019-12-10 19:19:57.943067: Step [86200]  train Loss : 2.954324, training accuracy :  0.1875
+2019-12-10 19:20:13.739466: Step [86300]  train Loss : 2.841245, training accuracy :  0.25
+2019-12-10 19:20:29.586107: Step [86400]  train Loss : 2.792667, training accuracy :  0.21875
+2019-12-10 19:20:45.400466: Step [86500]  train Loss : 2.764365, training accuracy :  0.28125
+2019-12-10 19:20:47.534348: Step [86500]  val Loss : 2.563029, val accuracy :  0.212623
+2019-12-10 19:21:03.271441: Step [86600]  train Loss : 2.606486, training accuracy :  0.21875
+2019-12-10 19:21:19.043228: Step [86700]  train Loss : 2.757843, training accuracy :  0.28125
+2019-12-10 19:21:34.809521: Step [86800]  train Loss : 2.645136, training accuracy :  0.25
+2019-12-10 19:21:50.637227: Step [86900]  train Loss : 2.817106, training accuracy :  0.15625
+2019-12-10 19:22:06.469133: Step [87000]  train Loss : 2.672370, training accuracy :  0.3125
+2019-12-10 19:22:08.609455: Step [87000]  val Loss : 2.563309, val accuracy :  0.211397
+2019-12-10 19:22:24.407691: Step [87100]  train Loss : 2.646057, training accuracy :  0.15625
+2019-12-10 19:22:40.221776: Step [87200]  train Loss : 2.768220, training accuracy :  0.1875
+2019-12-10 19:22:56.061198: Step [87300]  train Loss : 2.816525, training accuracy :  0.1875
+2019-12-10 19:23:11.928662: Step [87400]  train Loss : 2.613614, training accuracy :  0.21875
+2019-12-10 19:23:27.649055: Step [87500]  train Loss : 2.695400, training accuracy :  0.21875
+2019-12-10 19:23:29.803999: Step [87500]  val Loss : 2.559971, val accuracy :  0.217525
+2019-12-10 19:23:45.581028: Step [87600]  train Loss : 2.756989, training accuracy :  0.15625
+2019-12-10 19:24:01.414867: Step [87700]  train Loss : 2.772161, training accuracy :  0.15625
+2019-12-10 19:24:17.189784: Step [87800]  train Loss : 2.784911, training accuracy :  0.125
+2019-12-10 19:24:32.958354: Step [87900]  train Loss : 2.778690, training accuracy :  0.25
+2019-12-10 19:24:48.755638: Step [88000]  train Loss : 2.925063, training accuracy :  0.25
+2019-12-10 19:24:50.911283: Step [88000]  val Loss : 2.559350, val accuracy :  0.216299
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-88000
+2019-12-10 19:25:10.122493: Step [88100]  train Loss : 2.810921, training accuracy :  0.21875
+2019-12-10 19:25:25.909806: Step [88200]  train Loss : 2.725570, training accuracy :  0.21875
+2019-12-10 19:25:41.702713: Step [88300]  train Loss : 2.834446, training accuracy :  0.15625
+2019-12-10 19:25:57.551027: Step [88400]  train Loss : 2.889567, training accuracy :  0.125
+2019-12-10 19:26:13.378935: Step [88500]  train Loss : 2.740079, training accuracy :  0.21875
+2019-12-10 19:26:15.512881: Step [88500]  val Loss : 2.558999, val accuracy :  0.218137
+2019-12-10 19:26:31.275694: Step [88600]  train Loss : 2.812247, training accuracy :  0.09375
+2019-12-10 19:26:47.071708: Step [88700]  train Loss : 2.913160, training accuracy :  0.15625
+2019-12-10 19:27:02.849281: Step [88800]  train Loss : 2.735492, training accuracy :  0.125
+2019-12-10 19:27:18.636706: Step [88900]  train Loss : 2.867933, training accuracy :  0.28125
+2019-12-10 19:27:34.397363: Step [89000]  train Loss : 2.665259, training accuracy :  0.21875
+2019-12-10 19:27:36.542999: Step [89000]  val Loss : 2.558303, val accuracy :  0.216299
+2019-12-10 19:27:52.314886: Step [89100]  train Loss : 2.782287, training accuracy :  0.28125
+2019-12-10 19:28:08.176514: Step [89200]  train Loss : 2.778607, training accuracy :  0.1875
+2019-12-10 19:28:23.976361: Step [89300]  train Loss : 2.962769, training accuracy :  0.0625
+2019-12-10 19:28:39.839541: Step [89400]  train Loss : 2.706369, training accuracy :  0.15625
+2019-12-10 19:28:55.638517: Step [89500]  train Loss : 2.808086, training accuracy :  0.125
+2019-12-10 19:28:57.772556: Step [89500]  val Loss : 2.558754, val accuracy :  0.216912
+2019-12-10 19:29:13.576485: Step [89600]  train Loss : 2.725160, training accuracy :  0.28125
+2019-12-10 19:29:29.402162: Step [89700]  train Loss : 2.823320, training accuracy :  0.1875
+2019-12-10 19:29:45.189050: Step [89800]  train Loss : 2.696929, training accuracy :  0.1875
+2019-12-10 19:30:01.012359: Step [89900]  train Loss : 2.757210, training accuracy :  0.0625
+2019-12-10 19:30:16.845593: Step [90000]  train Loss : 2.723431, training accuracy :  0.25
+2019-12-10 19:30:18.991670: Step [90000]  val Loss : 2.558492, val accuracy :  0.214461
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-90000
+2019-12-10 19:30:38.208035: Step [90100]  train Loss : 2.697979, training accuracy :  0.15625
+2019-12-10 19:30:54.014747: Step [90200]  train Loss : 2.718511, training accuracy :  0.125
+2019-12-10 19:31:09.834562: Step [90300]  train Loss : 2.872387, training accuracy :  0.28125
+2019-12-10 19:31:25.643666: Step [90400]  train Loss : 2.786265, training accuracy :  0.21875
+2019-12-10 19:31:41.440511: Step [90500]  train Loss : 2.823088, training accuracy :  0.28125
+2019-12-10 19:31:43.588268: Step [90500]  val Loss : 2.556482, val accuracy :  0.219363
+2019-12-10 19:31:59.372295: Step [90600]  train Loss : 2.744609, training accuracy :  0.21875
+2019-12-10 19:32:15.213023: Step [90700]  train Loss : 2.754190, training accuracy :  0.25
+2019-12-10 19:32:31.033580: Step [90800]  train Loss : 2.627378, training accuracy :  0.21875
+2019-12-10 19:32:46.842390: Step [90900]  train Loss : 2.668142, training accuracy :  0.25
+2019-12-10 19:33:02.622729: Step [91000]  train Loss : 2.660366, training accuracy :  0.125
+2019-12-10 19:33:04.762379: Step [91000]  val Loss : 2.555471, val accuracy :  0.219363
+2019-12-10 19:33:20.504108: Step [91100]  train Loss : 2.879719, training accuracy :  0.1875
+2019-12-10 19:33:36.290457: Step [91200]  train Loss : 2.674441, training accuracy :  0.28125
+2019-12-10 19:33:52.023728: Step [91300]  train Loss : 2.698007, training accuracy :  0.21875
+2019-12-10 19:34:07.844971: Step [91400]  train Loss : 2.748337, training accuracy :  0.3125
+2019-12-10 19:34:23.629510: Step [91500]  train Loss : 2.687541, training accuracy :  0.125
+2019-12-10 19:34:25.791101: Step [91500]  val Loss : 2.553761, val accuracy :  0.219363
+2019-12-10 19:34:41.549696: Step [91600]  train Loss : 2.630593, training accuracy :  0.15625
+2019-12-10 19:34:57.341274: Step [91700]  train Loss : 2.706908, training accuracy :  0.21875
+2019-12-10 19:35:13.124079: Step [91800]  train Loss : 2.901465, training accuracy :  0.03125
+2019-12-10 19:35:28.946135: Step [91900]  train Loss : 2.731650, training accuracy :  0.28125
+2019-12-10 19:35:44.687026: Step [92000]  train Loss : 2.599322, training accuracy :  0.1875
+2019-12-10 19:35:46.841858: Step [92000]  val Loss : 2.552172, val accuracy :  0.223039
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-92000
+2019-12-10 19:36:06.132459: Step [92100]  train Loss : 2.809849, training accuracy :  0.15625
+2019-12-10 19:36:21.933200: Step [92200]  train Loss : 2.686884, training accuracy :  0.1875
+2019-12-10 19:36:37.746668: Step [92300]  train Loss : 2.660489, training accuracy :  0.25
+2019-12-10 19:36:53.543784: Step [92400]  train Loss : 2.854031, training accuracy :  0.09375
+2019-12-10 19:37:09.347954: Step [92500]  train Loss : 2.765688, training accuracy :  0.09375
+2019-12-10 19:37:11.498149: Step [92500]  val Loss : 2.551539, val accuracy :  0.219363
+2019-12-10 19:37:27.305277: Step [92600]  train Loss : 2.649848, training accuracy :  0.1875
+2019-12-10 19:37:43.136789: Step [92700]  train Loss : 2.865874, training accuracy :  0.21875
+2019-12-10 19:37:58.941274: Step [92800]  train Loss : 2.858834, training accuracy :  0.125
+2019-12-10 19:38:14.746704: Step [92900]  train Loss : 2.763468, training accuracy :  0.125
+2019-12-10 19:38:30.569465: Step [93000]  train Loss : 2.763617, training accuracy :  0.125
+2019-12-10 19:38:32.722850: Step [93000]  val Loss : 2.550908, val accuracy :  0.228554
+2019-12-10 19:38:48.474781: Step [93100]  train Loss : 3.008905, training accuracy :  0.25
+2019-12-10 19:39:04.291026: Step [93200]  train Loss : 2.569278, training accuracy :  0.25
+2019-12-10 19:39:20.144983: Step [93300]  train Loss : 2.817398, training accuracy :  0.1875
+2019-12-10 19:39:35.969190: Step [93400]  train Loss : 2.594308, training accuracy :  0.3125
+2019-12-10 19:39:51.763482: Step [93500]  train Loss : 2.816317, training accuracy :  0.28125
+2019-12-10 19:39:53.912081: Step [93500]  val Loss : 2.549790, val accuracy :  0.227328
+2019-12-10 19:40:09.627009: Step [93600]  train Loss : 2.845619, training accuracy :  0.15625
+2019-12-10 19:40:25.437158: Step [93700]  train Loss : 2.692636, training accuracy :  0.21875
+2019-12-10 19:40:41.232254: Step [93800]  train Loss : 2.678304, training accuracy :  0.28125
+2019-12-10 19:40:56.992501: Step [93900]  train Loss : 2.639570, training accuracy :  0.1875
+2019-12-10 19:41:12.731648: Step [94000]  train Loss : 2.856053, training accuracy :  0.25
+2019-12-10 19:41:14.878513: Step [94000]  val Loss : 2.549906, val accuracy :  0.223039
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-94000
+2019-12-10 19:41:34.203031: Step [94100]  train Loss : 2.709385, training accuracy :  0.09375
+2019-12-10 19:41:49.943358: Step [94200]  train Loss : 2.802962, training accuracy :  0.125
+2019-12-10 19:42:05.708950: Step [94300]  train Loss : 2.792796, training accuracy :  0.0625
+2019-12-10 19:42:21.500307: Step [94400]  train Loss : 2.792028, training accuracy :  0.28125
+2019-12-10 19:42:37.299677: Step [94500]  train Loss : 2.657801, training accuracy :  0.15625
+2019-12-10 19:42:39.445643: Step [94500]  val Loss : 2.549426, val accuracy :  0.221201
+2019-12-10 19:42:55.161083: Step [94600]  train Loss : 2.678905, training accuracy :  0.125
+2019-12-10 19:43:10.962419: Step [94700]  train Loss : 2.778327, training accuracy :  0.34375
+2019-12-10 19:43:26.744231: Step [94800]  train Loss : 2.869121, training accuracy :  0.1875
+2019-12-10 19:43:42.556745: Step [94900]  train Loss : 2.775307, training accuracy :  0.25
+2019-12-10 19:43:58.371038: Step [95000]  train Loss : 2.708476, training accuracy :  0.21875
+2019-12-10 19:44:00.522835: Step [95000]  val Loss : 2.549975, val accuracy :  0.223652
+2019-12-10 19:44:16.224165: Step [95100]  train Loss : 2.855431, training accuracy :  0.1875
+2019-12-10 19:44:32.026181: Step [95200]  train Loss : 2.554201, training accuracy :  0.1875
+2019-12-10 19:44:47.798281: Step [95300]  train Loss : 2.751102, training accuracy :  0.03125
+2019-12-10 19:45:03.621540: Step [95400]  train Loss : 2.833462, training accuracy :  0.28125
+2019-12-10 19:45:19.419873: Step [95500]  train Loss : 2.850224, training accuracy :  0.15625
+2019-12-10 19:45:21.590126: Step [95500]  val Loss : 2.547161, val accuracy :  0.229779
+2019-12-10 19:45:37.357910: Step [95600]  train Loss : 2.628828, training accuracy :  0.1875
+2019-12-10 19:45:53.111820: Step [95700]  train Loss : 2.700682, training accuracy :  0.15625
+2019-12-10 19:46:08.950688: Step [95800]  train Loss : 2.823567, training accuracy :  0.21875
+2019-12-10 19:46:24.679505: Step [95900]  train Loss : 3.014421, training accuracy :  0.25
+2019-12-10 19:46:40.492011: Step [96000]  train Loss : 2.716060, training accuracy :  0.09375
+2019-12-10 19:46:42.640330: Step [96000]  val Loss : 2.546814, val accuracy :  0.226103
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-96000
+2019-12-10 19:47:01.903673: Step [96100]  train Loss : 2.755749, training accuracy :  0.28125
+2019-12-10 19:47:17.656169: Step [96200]  train Loss : 2.779160, training accuracy :  0.125
+2019-12-10 19:47:33.445524: Step [96300]  train Loss : 2.819223, training accuracy :  0.25
+2019-12-10 19:47:49.225480: Step [96400]  train Loss : 2.859557, training accuracy :  0.25
+2019-12-10 19:48:05.031446: Step [96500]  train Loss : 2.749431, training accuracy :  0.25
+2019-12-10 19:48:07.182970: Step [96500]  val Loss : 2.546772, val accuracy :  0.224877
+2019-12-10 19:48:22.967923: Step [96600]  train Loss : 2.644242, training accuracy :  0.4375
+2019-12-10 19:48:38.747631: Step [96700]  train Loss : 2.789030, training accuracy :  0.0625
+2019-12-10 19:48:54.557296: Step [96800]  train Loss : 2.682398, training accuracy :  0.09375
+2019-12-10 19:49:10.385396: Step [96900]  train Loss : 2.789020, training accuracy :  0.15625
+2019-12-10 19:49:26.201575: Step [97000]  train Loss : 2.583278, training accuracy :  0.21875
+2019-12-10 19:49:28.332567: Step [97000]  val Loss : 2.545164, val accuracy :  0.231618
+2019-12-10 19:49:44.110532: Step [97100]  train Loss : 2.682300, training accuracy :  0.34375
+2019-12-10 19:49:59.872257: Step [97200]  train Loss : 2.798057, training accuracy :  0.34375
+2019-12-10 19:50:15.696543: Step [97300]  train Loss : 2.587144, training accuracy :  0.34375
+2019-12-10 19:50:31.486109: Step [97400]  train Loss : 2.664188, training accuracy :  0.25
+2019-12-10 19:50:47.340605: Step [97500]  train Loss : 2.883155, training accuracy :  0.25
+2019-12-10 19:50:49.483338: Step [97500]  val Loss : 2.543867, val accuracy :  0.232843
+2019-12-10 19:51:05.276361: Step [97600]  train Loss : 2.800274, training accuracy :  0.15625
+2019-12-10 19:51:21.093157: Step [97700]  train Loss : 2.577704, training accuracy :  0.125
+2019-12-10 19:51:36.873207: Step [97800]  train Loss : 2.501423, training accuracy :  0.3125
+2019-12-10 19:51:52.635165: Step [97900]  train Loss : 2.724818, training accuracy :  0.28125
+2019-12-10 19:52:08.443174: Step [98000]  train Loss : 2.752082, training accuracy :  0.09375
+2019-12-10 19:52:10.585613: Step [98000]  val Loss : 2.542092, val accuracy :  0.228554
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-98000
+2019-12-10 19:52:29.886719: Step [98100]  train Loss : 2.574930, training accuracy :  0.28125
+2019-12-10 19:52:45.662384: Step [98200]  train Loss : 2.788192, training accuracy :  0.21875
+2019-12-10 19:53:01.454819: Step [98300]  train Loss : 2.737215, training accuracy :  0.125
+2019-12-10 19:53:17.288484: Step [98400]  train Loss : 2.695552, training accuracy :  0.1875
+2019-12-10 19:53:33.094824: Step [98500]  train Loss : 2.849988, training accuracy :  0.21875
+2019-12-10 19:53:35.239989: Step [98500]  val Loss : 2.541673, val accuracy :  0.228554
+2019-12-10 19:53:51.006156: Step [98600]  train Loss : 2.688608, training accuracy :  0.25
+2019-12-10 19:54:06.733782: Step [98700]  train Loss : 2.887730, training accuracy :  0.1875
+2019-12-10 19:54:38.341481: Step [98900]  train Loss : 2.646916, training accuracy :  0.25
+2019-12-10 19:54:54.166485: Step [99000]  train Loss : 2.719570, training accuracy :  0.28125
+2019-12-10 19:54:56.296129: Step [99000]  val Loss : 2.539257, val accuracy :  0.232843
+2019-12-10 19:55:12.071084: Step [99100]  train Loss : 2.848963, training accuracy :  0.1875
+2019-12-10 19:55:27.917746: Step [99200]  train Loss : 2.696242, training accuracy :  0.25
+2019-12-10 19:55:43.723960: Step [99300]  train Loss : 2.663432, training accuracy :  0.25
+2019-12-10 19:55:59.532185: Step [99400]  train Loss : 2.772581, training accuracy :  0.28125
+2019-12-10 19:56:15.339371: Step [99500]  train Loss : 2.488330, training accuracy :  0.28125
+2019-12-10 19:56:17.482946: Step [99500]  val Loss : 2.539916, val accuracy :  0.23652
+2019-12-10 19:56:33.204550: Step [99600]  train Loss : 2.616506, training accuracy :  0.3125
+2019-12-10 19:56:48.991403: Step [99700]  train Loss : 2.867780, training accuracy :  0.1875
+2019-12-10 19:57:04.791059: Step [99800]  train Loss : 2.704647, training accuracy :  0.15625
+2019-12-10 19:57:20.559358: Step [99900]  train Loss : 2.706273, training accuracy :  0.28125
+2019-12-10 19:57:36.371124: Step [100000]  train Loss : 2.896002, training accuracy :  0.3125
+2019-12-10 19:57:38.532197: Step [100000]  val Loss : 2.536407, val accuracy :  0.237745
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-100000
+PS F:\Tensorflow\tensorflow_models_learning> & F:/Anaconda3/envs/tensorflow_gpu/python.exe f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\slim\nets\mobilenet_v1.py:435: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:23: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:39: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.   
+Instructions for updating:
+Use eager execution and:
+`tf.data.TFRecordDataset(path)`
+train nums:22424,val nums:1637
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:150: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:278: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:190: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:199: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and 
+will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:199: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:152: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.   
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:157: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:160: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:127: shuffle_batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.shuffle(min_after_dequeue).batch(batch_size)`.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:132: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\slim\nets\mobilenet_v1.py:361: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:165: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:121: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:167: The name tf.losses.get_total_loss is deprecated. Please use tf.compat.v1.losses.get_total_loss instead.       
+
+update_ops:[<tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 
+'MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>]
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:181: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.   
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:69: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-12-10 21:01:52.569640: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library nvcuda.dll
+2019-12-10 21:01:52.673089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:29:00.0
+2019-12-10 21:01:52.685571: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2019-12-10 21:01:52.687858: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-10 21:01:52.697951: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-12-10 21:01:52.703177: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:29:00.0
+2019-12-10 21:01:52.714428: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2019-12-10 21:01:52.716711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-10 21:01:53.254948: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-10 21:01:53.262538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-12-10 21:01:53.264134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N
+2019-12-10 21:01:53.265908: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6315 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:29:00.0, compute capability: 7.5)
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Model restored...
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:82: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a 
+future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-12-10 21:01:59.320880: Step [0]  train Loss : 2.791328, training accuracy :  0.09375
+2019-12-10 21:02:01.774130: Step [0]  val Loss : 2.536498, val accuracy :  0.235294
+2019-12-10 21:03:19.036452: Step [500]  train Loss : 2.719951, training accuracy :  0.125
+2019-12-10 21:04:37.080773: Step [1000]  train Loss : 2.766192, training accuracy :  0.1875
+2019-12-10 21:04:39.189870: Step [1000]  val Loss : 2.533094, val accuracy :  0.235907
+2019-12-10 21:05:57.374583: Step [1500]  train Loss : 2.648360, training accuracy :  0.28125
+2019-12-10 21:07:15.668931: Step [2000]  train Loss : 2.676477, training accuracy :  0.25
+2019-12-10 21:07:17.793202: Step [2000]  val Loss : 2.510909, val accuracy :  0.252451
+2019-12-10 21:08:36.321664: Step [2500]  train Loss : 2.611562, training accuracy :  0.3125
+2019-12-10 21:09:54.880878: Step [3000]  train Loss : 2.895244, training accuracy :  0.125
+2019-12-10 21:09:57.022135: Step [3000]  val Loss : 2.489315, val accuracy :  0.276348
+2019-12-10 21:11:15.471602: Step [3500]  train Loss : 2.712784, training accuracy :  0.34375
+2019-12-10 21:12:34.154417: Step [4000]  train Loss : 2.502105, training accuracy :  0.3125
+2019-12-10 21:12:36.280171: Step [4000]  val Loss : 2.478858, val accuracy :  0.278186
+2019-12-10 21:13:54.856669: Step [4500]  train Loss : 2.770288, training accuracy :  0.1875
+2019-12-10 21:15:13.510640: Step [5000]  train Loss : 2.719072, training accuracy :  0.28125
+2019-12-10 21:15:15.650519: Step [5000]  val Loss : 2.448751, val accuracy :  0.293505
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-5000
+2019-12-10 21:16:37.990884: Step [5500]  train Loss : 2.707988, training accuracy :  0.25
+2019-12-10 21:17:56.426604: Step [6000]  train Loss : 2.666633, training accuracy :  0.25
+2019-12-10 21:17:58.565835: Step [6000]  val Loss : 2.432236, val accuracy :  0.30576
+2019-12-10 21:19:17.188582: Step [6500]  train Loss : 2.691598, training accuracy :  0.3125
+2019-12-10 21:20:35.592076: Step [7000]  train Loss : 2.594273, training accuracy :  0.40625
+2019-12-10 21:20:37.717240: Step [7000]  val Loss : 2.416328, val accuracy :  0.306373
+2019-12-10 21:21:56.369454: Step [7500]  train Loss : 2.701093, training accuracy :  0.25
+2019-12-10 21:23:14.882418: Step [8000]  train Loss : 2.480476, training accuracy :  0.40625
+2019-12-10 21:23:17.023066: Step [8000]  val Loss : 2.398592, val accuracy :  0.330882
+2019-12-10 21:24:35.770175: Step [8500]  train Loss : 2.591008, training accuracy :  0.25
+2019-12-10 21:25:54.422623: Step [9000]  train Loss : 2.734226, training accuracy :  0.3125
+2019-12-10 21:25:56.563917: Step [9000]  val Loss : 2.377768, val accuracy :  0.329044
+2019-12-10 21:27:15.060755: Step [9500]  train Loss : 2.572281, training accuracy :  0.3125
+2019-12-10 21:28:33.698368: Step [10000]  train Loss : 2.424141, training accuracy :  0.25
+2019-12-10 21:28:35.839499: Step [10000]  val Loss : 2.339401, val accuracy :  0.362745
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-10000
+2019-12-10 21:29:58.027736: Step [10500]  train Loss : 2.707849, training accuracy :  0.15625
+2019-12-10 21:31:16.968853: Step [11000]  train Loss : 2.559205, training accuracy :  0.28125
+2019-12-10 21:31:19.111572: Step [11000]  val Loss : 2.310937, val accuracy :  0.362745
+2019-12-10 21:32:38.007313: Step [11500]  train Loss : 2.571512, training accuracy :  0.3125
+2019-12-10 21:33:56.789307: Step [12000]  train Loss : 2.756001, training accuracy :  0.15625
+2019-12-10 21:33:58.945268: Step [12000]  val Loss : 2.281595, val accuracy :  0.387255
+2019-12-10 21:35:18.220641: Step [12500]  train Loss : 2.580796, training accuracy :  0.46875
+2019-12-10 21:36:36.934898: Step [13000]  train Loss : 2.457046, training accuracy :  0.375
+2019-12-10 21:36:39.064940: Step [13000]  val Loss : 2.255337, val accuracy :  0.409314
+2019-12-10 21:37:57.830294: Step [13500]  train Loss : 2.578120, training accuracy :  0.25
+2019-12-10 21:39:16.390066: Step [14000]  train Loss : 2.689332, training accuracy :  0.40625
+2019-12-10 21:39:18.525833: Step [14000]  val Loss : 2.232648, val accuracy :  0.438726
+2019-12-10 21:40:37.240966: Step [14500]  train Loss : 2.605689, training accuracy :  0.25
+2019-12-10 21:41:56.004806: Step [15000]  train Loss : 2.614480, training accuracy :  0.28125
+2019-12-10 21:41:58.153423: Step [15000]  val Loss : 2.198711, val accuracy :  0.439951
+2019-12-10 21:43:20.147901: Step [15500]  train Loss : 2.500407, training accuracy :  0.28125
+2019-12-10 21:44:38.664337: Step [16000]  train Loss : 2.588156, training accuracy :  0.375
+2019-12-10 21:44:40.811318: Step [16000]  val Loss : 2.168693, val accuracy :  0.443627
+2019-12-10 21:45:59.537827: Step [16500]  train Loss : 2.530620, training accuracy :  0.625
+2019-12-10 21:47:18.025156: Step [17000]  train Loss : 2.438042, training accuracy :  0.53125
+2019-12-10 21:47:20.171925: Step [17000]  val Loss : 2.134753, val accuracy :  0.47549
+2019-12-10 21:48:38.862771: Step [17500]  train Loss : 2.458866, training accuracy :  0.375
+2019-12-10 21:49:57.680315: Step [18000]  train Loss : 2.373830, training accuracy :  0.5
+2019-12-10 21:49:59.817262: Step [18000]  val Loss : 2.080264, val accuracy :  0.515319
+2019-12-10 21:51:18.425735: Step [18500]  train Loss : 2.346977, training accuracy :  0.53125
+2019-12-10 21:52:37.101067: Step [19000]  train Loss : 2.573043, training accuracy :  0.5625
+2019-12-10 21:52:39.244404: Step [19000]  val Loss : 2.054565, val accuracy :  0.512868
+2019-12-10 21:53:57.883254: Step [19500]  train Loss : 2.593509, training accuracy :  0.46875
+2019-12-10 21:55:16.886132: Step [20000]  train Loss : 2.362777, training accuracy :  0.5
+2019-12-10 21:55:19.036547: Step [20000]  val Loss : 2.028224, val accuracy :  0.528799
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-20000
+PS F:\Tensorflow\tensorflow_models_learning> & F:/Anaconda3/envs/tensorflow_gpu/python.exe f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\slim\nets\mobilenet_v1.py:435: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:23: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:39: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.   
+Instructions for updating:
+Use eager execution and:
+`tf.data.TFRecordDataset(path)`
+train nums:22424,val nums:1637
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:150: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:278: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:190: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:199: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and 
+will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\input.py:199: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:152: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.   
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:157: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:160: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:127: shuffle_batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.shuffle(min_after_dequeue).batch(batch_size)`.
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\create_tf_record.py:132: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+WARNING:tensorflow:From f:\Tensorflow\tensorflow_models_learning\slim\nets\mobilenet_v1.py:361: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:165: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:121: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:167: The name tf.losses.get_total_loss is deprecated. Please use tf.compat.v1.losses.get_total_loss instead.       
+
+update_ops:[<tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 
+'MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/AssignMovingAvg' type=AssignSub>, <tf.Operation 'MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/AssignMovingAvg_1' type=AssignSub>]
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:181: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.   
+
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:69: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-12-10 21:56:23.415590: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library nvcuda.dll
+2019-12-10 21:56:23.518566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:29:00.0
+2019-12-10 21:56:23.531026: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2019-12-10 21:56:23.533331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-10 21:56:23.535182: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-12-10 21:56:23.540170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:29:00.0
+2019-12-10 21:56:23.550069: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2019-12-10 21:56:23.552365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-12-10 21:56:24.079168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-10 21:56:24.086411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0
+2019-12-10 21:56:24.087816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-12-10 21:56:24.089618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6315 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:29:00.0, compute capability: 7.5)
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Model restored...
+WARNING:tensorflow:From f:/Tensorflow/tensorflow_models_learning/mobilenet_train_val-bms.py:82: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a 
+future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-12-10 21:56:30.196773: Step [0]  train Loss : 2.265196, training accuracy :  0.625
+2019-12-10 21:56:32.664226: Step [0]  val Loss : 2.031521, val accuracy :  0.525735
+2019-12-10 21:57:53.330633: Step [500]  train Loss : 2.537720, training accuracy :  0.375
+2019-12-10 21:59:14.175528: Step [1000]  train Loss : 2.422734, training accuracy :  0.28125
+2019-12-10 21:59:16.311164: Step [1000]  val Loss : 1.982234, val accuracy :  0.554534
+2019-12-10 22:00:37.114338: Step [1500]  train Loss : 2.156808, training accuracy :  0.53125
+2019-12-10 22:01:57.885505: Step [2000]  train Loss : 2.187355, training accuracy :  0.5
+2019-12-10 22:02:00.021453: Step [2000]  val Loss : 1.941813, val accuracy :  0.552696
+2019-12-10 22:03:20.774962: Step [2500]  train Loss : 2.542102, training accuracy :  0.25
+2019-12-10 22:04:41.751003: Step [3000]  train Loss : 2.544461, training accuracy :  0.40625
+2019-12-10 22:04:43.896370: Step [3000]  val Loss : 1.902426, val accuracy :  0.577819
+2019-12-10 22:06:04.865446: Step [3500]  train Loss : 2.259781, training accuracy :  0.46875
+2019-12-10 22:07:25.881271: Step [4000]  train Loss : 2.467830, training accuracy :  0.5625
+2019-12-10 22:07:28.008141: Step [4000]  val Loss : 1.856378, val accuracy :  0.604779
+2019-12-10 22:08:48.882567: Step [4500]  train Loss : 2.253595, training accuracy :  0.59375
+2019-12-10 22:10:09.762255: Step [5000]  train Loss : 2.283957, training accuracy :  0.46875
+2019-12-10 22:10:11.902474: Step [5000]  val Loss : 1.827285, val accuracy :  0.590686
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-5000
+2019-12-10 22:11:36.838282: Step [5500]  train Loss : 2.228404, training accuracy :  0.5
+2019-12-10 22:12:57.674615: Step [6000]  train Loss : 2.378216, training accuracy :  0.34375
+2019-12-10 22:12:59.811741: Step [6000]  val Loss : 1.778958, val accuracy :  0.613971
+2019-12-10 22:14:20.576076: Step [6500]  train Loss : 2.155637, training accuracy :  0.625
+2019-12-10 22:15:41.496511: Step [7000]  train Loss : 2.444741, training accuracy :  0.375
+2019-12-10 22:15:43.638362: Step [7000]  val Loss : 1.735177, val accuracy :  0.615196
+2019-12-10 22:17:04.372212: Step [7500]  train Loss : 2.125840, training accuracy :  0.53125
+2019-12-10 22:18:25.320660: Step [8000]  train Loss : 2.244258, training accuracy :  0.5
+2019-12-10 22:18:27.465327: Step [8000]  val Loss : 1.681700, val accuracy :  0.647672
+2019-12-10 22:19:48.400648: Step [8500]  train Loss : 1.952466, training accuracy :  0.46875
+2019-12-10 22:21:09.274591: Step [9000]  train Loss : 2.205998, training accuracy :  0.625
+2019-12-10 22:21:11.409431: Step [9000]  val Loss : 1.632792, val accuracy :  0.668505
+2019-12-10 22:22:32.343792: Step [9500]  train Loss : 1.815600, training accuracy :  0.6875
+2019-12-10 22:23:53.222144: Step [10000]  train Loss : 2.114439, training accuracy :  0.71875
+2019-12-10 22:23:55.382891: Step [10000]  val Loss : 1.595724, val accuracy :  0.66973
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-10000
+2019-12-10 22:25:19.947666: Step [10500]  train Loss : 2.241302, training accuracy :  0.5
+2019-12-10 22:26:40.884924: Step [11000]  train Loss : 1.962722, training accuracy :  0.625
+2019-12-10 22:26:43.043583: Step [11000]  val Loss : 1.540361, val accuracy :  0.704657
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_11000_0.7047.ckpt
+2019-12-10 22:28:07.355893: Step [11500]  train Loss : 2.012959, training accuracy :  0.65625
+2019-12-10 22:29:28.294474: Step [12000]  train Loss : 2.170318, training accuracy :  0.6875
+2019-12-10 22:29:30.437377: Step [12000]  val Loss : 1.519058, val accuracy :  0.693015
+2019-12-10 22:30:51.366620: Step [12500]  train Loss : 2.217611, training accuracy :  0.46875
+2019-12-10 22:32:12.289346: Step [13000]  train Loss : 1.856612, training accuracy :  0.78125
+2019-12-10 22:32:14.432238: Step [13000]  val Loss : 1.457116, val accuracy :  0.717525
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_13000_0.7175.ckpt
+2019-12-10 22:33:38.886499: Step [13500]  train Loss : 1.879137, training accuracy :  0.5
+2019-12-10 22:34:59.816064: Step [14000]  train Loss : 1.784785, training accuracy :  0.59375
+2019-12-10 22:35:01.957498: Step [14000]  val Loss : 1.422631, val accuracy :  0.721201
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_14000_0.7212.ckpt
+2019-12-10 22:36:26.397170: Step [14500]  train Loss : 1.927844, training accuracy :  0.59375
+2019-12-10 22:37:47.247245: Step [15000]  train Loss : 1.990158, training accuracy :  0.78125
+2019-12-10 22:37:49.393275: Step [15000]  val Loss : 1.358010, val accuracy :  0.752451
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-15000
+WARNING:tensorflow:From F:\Anaconda3\envs\tensorflow_gpu\lib\site-packages\tensorflow\python\training\saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_15000_0.7525.ckpt
+2019-12-10 22:39:17.070882: Step [15500]  train Loss : 1.996801, training accuracy :  0.5625
+2019-12-10 22:40:38.086076: Step [16000]  train Loss : 1.550364, training accuracy :  0.71875
+2019-12-10 22:40:40.227676: Step [16000]  val Loss : 1.319621, val accuracy :  0.751838
+2019-12-10 22:42:01.243354: Step [16500]  train Loss : 1.698234, training accuracy :  0.65625
+2019-12-10 22:43:22.553435: Step [17000]  train Loss : 1.749481, training accuracy :  0.75
+2019-12-10 22:43:24.720737: Step [17000]  val Loss : 1.284677, val accuracy :  0.77451
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_17000_0.7745.ckpt
+2019-12-10 22:44:49.267671: Step [17500]  train Loss : 1.718297, training accuracy :  0.75
+2019-12-10 22:46:10.314368: Step [18000]  train Loss : 1.782705, training accuracy :  0.59375
+2019-12-10 22:46:12.449381: Step [18000]  val Loss : 1.244334, val accuracy :  0.78125
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_18000_0.7812.ckpt
+2019-12-10 22:47:36.871111: Step [18500]  train Loss : 1.542387, training accuracy :  0.6875
+2019-12-10 22:48:58.017976: Step [19000]  train Loss : 1.639714, training accuracy :  0.59375
+2019-12-10 22:49:00.157810: Step [19000]  val Loss : 1.203784, val accuracy :  0.795343
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_19000_0.7953.ckpt
+2019-12-10 22:50:24.548781: Step [19500]  train Loss : 1.588269, training accuracy :  0.65625
+2019-12-10 22:51:45.771858: Step [20000]  train Loss : 1.573096, training accuracy :  0.65625
+2019-12-10 22:51:47.902266: Step [20000]  val Loss : 1.159964, val accuracy :  0.803922
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-20000
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_20000_0.8039.ckpt
+2019-12-10 22:53:15.910486: Step [20500]  train Loss : 1.659141, training accuracy :  0.6875
+2019-12-10 22:54:36.960041: Step [21000]  train Loss : 1.693147, training accuracy :  0.6875
+2019-12-10 22:54:39.125795: Step [21000]  val Loss : 1.127898, val accuracy :  0.815564
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_21000_0.8156.ckpt
+2019-12-10 22:56:03.475428: Step [21500]  train Loss : 1.529263, training accuracy :  0.71875
+2019-12-10 22:57:24.348094: Step [22000]  train Loss : 1.290388, training accuracy :  0.6875
+2019-12-10 22:57:26.488208: Step [22000]  val Loss : 1.082915, val accuracy :  0.820466
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_22000_0.8205.ckpt
+2019-12-10 22:58:51.018951: Step [22500]  train Loss : 1.486125, training accuracy :  0.71875
+2019-12-10 23:00:11.895650: Step [23000]  train Loss : 1.706995, training accuracy :  0.6875
+2019-12-10 23:00:14.032413: Step [23000]  val Loss : 1.045227, val accuracy :  0.83701
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_23000_0.8370.ckpt
+2019-12-10 23:01:38.480735: Step [23500]  train Loss : 1.429639, training accuracy :  0.75
+2019-12-10 23:02:59.523177: Step [24000]  train Loss : 1.461379, training accuracy :  0.78125
+2019-12-10 23:03:01.658375: Step [24000]  val Loss : 1.017895, val accuracy :  0.847426
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_24000_0.8474.ckpt
+2019-12-10 23:04:26.126909: Step [24500]  train Loss : 1.571174, training accuracy :  0.875
+2019-12-10 23:05:46.980667: Step [25000]  train Loss : 1.484123, training accuracy :  0.84375
+2019-12-10 23:05:49.118327: Step [25000]  val Loss : 0.969829, val accuracy :  0.863971
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-25000
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_25000_0.8640.ckpt
+2019-12-10 23:07:16.904127: Step [25500]  train Loss : 1.678895, training accuracy :  0.625
+2019-12-10 23:08:37.773115: Step [26000]  train Loss : 1.273015, training accuracy :  0.875
+2019-12-10 23:08:39.910725: Step [26000]  val Loss : 0.955758, val accuracy :  0.860907
+2019-12-10 23:10:01.053172: Step [26500]  train Loss : 1.393642, training accuracy :  0.78125
+2019-12-10 23:11:22.168640: Step [27000]  train Loss : 1.296763, training accuracy :  0.75
+2019-12-10 23:11:24.304968: Step [27000]  val Loss : 0.898075, val accuracy :  0.89277
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_27000_0.8928.ckpt
+2019-12-10 23:12:48.820552: Step [27500]  train Loss : 1.404521, training accuracy :  0.84375
+2019-12-10 23:14:09.938820: Step [28000]  train Loss : 1.481975, training accuracy :  0.8125
+2019-12-10 23:14:12.081115: Step [28000]  val Loss : 0.883403, val accuracy :  0.886642
+2019-12-10 23:15:32.799407: Step [28500]  train Loss : 1.562727, training accuracy :  0.6875
+2019-12-10 23:16:53.637018: Step [29000]  train Loss : 1.390162, training accuracy :  0.84375
+2019-12-10 23:16:55.790525: Step [29000]  val Loss : 0.856803, val accuracy :  0.894608
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_29000_0.8946.ckpt
+2019-12-10 23:18:20.181967: Step [29500]  train Loss : 1.115638, training accuracy :  0.8125
+2019-12-10 23:19:41.358361: Step [30000]  train Loss : 0.942877, training accuracy :  0.96875
+2019-12-10 23:19:43.516898: Step [30000]  val Loss : 0.828436, val accuracy :  0.900735
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-30000
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_30000_0.9007.ckpt
+2019-12-10 23:21:11.479686: Step [30500]  train Loss : 1.188632, training accuracy :  0.8125
+2019-12-10 23:22:32.432279: Step [31000]  train Loss : 1.248473, training accuracy :  0.90625
+2019-12-10 23:22:34.576799: Step [31000]  val Loss : 0.791365, val accuracy :  0.909314
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_31000_0.9093.ckpt
+2019-12-10 23:23:59.327907: Step [31500]  train Loss : 1.208487, training accuracy :  0.90625
+2019-12-10 23:25:20.214853: Step [32000]  train Loss : 1.522509, training accuracy :  0.84375
+2019-12-10 23:25:22.371000: Step [32000]  val Loss : 0.762896, val accuracy :  0.92402
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_32000_0.9240.ckpt
+2019-12-10 23:26:46.485189: Step [32500]  train Loss : 1.241656, training accuracy :  0.78125
+2019-12-10 23:28:07.202531: Step [33000]  train Loss : 1.218992, training accuracy :  0.90625
+2019-12-10 23:28:09.346954: Step [33000]  val Loss : 0.733613, val accuracy :  0.931373
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_33000_0.9314.ckpt
+2019-12-10 23:29:33.363552: Step [33500]  train Loss : 1.142045, training accuracy :  0.90625
+2019-12-10 23:30:54.275991: Step [34000]  train Loss : 0.957873, training accuracy :  1
+2019-12-10 23:30:56.408335: Step [34000]  val Loss : 0.714134, val accuracy :  0.9375
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_34000_0.9375.ckpt
+2019-12-10 23:32:20.892292: Step [34500]  train Loss : 1.318163, training accuracy :  0.84375
+2019-12-10 23:33:41.761604: Step [35000]  train Loss : 1.231952, training accuracy :  0.8125
+2019-12-10 23:33:43.900598: Step [35000]  val Loss : 0.693501, val accuracy :  0.941789
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-35000
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_35000_0.9418.ckpt
+2019-12-10 23:35:11.301972: Step [35500]  train Loss : 0.937501, training accuracy :  0.875
+2019-12-10 23:36:32.115832: Step [36000]  train Loss : 0.884164, training accuracy :  0.84375
+2019-12-10 23:36:34.276437: Step [36000]  val Loss : 0.680982, val accuracy :  0.945466
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_36000_0.9455.ckpt
+2019-12-10 23:37:58.387778: Step [36500]  train Loss : 0.953028, training accuracy :  0.90625
+2019-12-10 23:39:19.279758: Step [37000]  train Loss : 1.044499, training accuracy :  0.9375
+2019-12-10 23:39:21.421082: Step [37000]  val Loss : 0.659881, val accuracy :  0.949142
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_37000_0.9491.ckpt
+2019-12-10 23:40:45.665893: Step [37500]  train Loss : 1.168275, training accuracy :  0.9375
+2019-12-10 23:42:06.166022: Step [38000]  train Loss : 0.969005, training accuracy :  0.96875
+2019-12-10 23:42:08.297725: Step [38000]  val Loss : 0.638349, val accuracy :  0.949755
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_38000_0.9498.ckpt
+2019-12-10 23:43:32.406956: Step [38500]  train Loss : 1.145293, training accuracy :  0.90625
+2019-12-10 23:44:53.112639: Step [39000]  train Loss : 0.797116, training accuracy :  0.9375
+2019-12-10 23:44:55.287429: Step [39000]  val Loss : 0.615654, val accuracy :  0.963848
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_39000_0.9638.ckpt
+2019-12-10 23:46:19.150726: Step [39500]  train Loss : 0.882674, training accuracy :  0.96875
+2019-12-10 23:47:39.949919: Step [40000]  train Loss : 0.919870, training accuracy :  0.90625
+2019-12-10 23:47:42.068755: Step [40000]  val Loss : 0.603315, val accuracy :  0.96201
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-40000
+2019-12-10 23:49:06.318467: Step [40500]  train Loss : 1.115291, training accuracy :  0.90625
+2019-12-10 23:50:27.492710: Step [41000]  train Loss : 0.830028, training accuracy :  0.96875
+2019-12-10 23:50:29.643910: Step [41000]  val Loss : 0.583728, val accuracy :  0.966912
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_41000_0.9669.ckpt
+2019-12-10 23:51:53.896210: Step [41500]  train Loss : 1.105168, training accuracy :  0.84375
+2019-12-10 23:53:14.727966: Step [42000]  train Loss : 1.024094, training accuracy :  0.84375
+2019-12-10 23:53:16.870662: Step [42000]  val Loss : 0.574765, val accuracy :  0.968137
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_42000_0.9681.ckpt
+2019-12-10 23:54:41.011580: Step [42500]  train Loss : 0.878049, training accuracy :  1
+2019-12-10 23:56:01.827547: Step [43000]  train Loss : 0.686548, training accuracy :  0.96875
+2019-12-10 23:56:03.964343: Step [43000]  val Loss : 0.552298, val accuracy :  0.976103
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_43000_0.9761.ckpt
+2019-12-10 23:57:27.932474: Step [43500]  train Loss : 1.016313, training accuracy :  0.96875
+2019-12-10 23:58:48.785556: Step [44000]  train Loss : 0.763774, training accuracy :  0.96875
+2019-12-10 23:58:50.924321: Step [44000]  val Loss : 0.543431, val accuracy :  0.97549
+2019-12-11 00:00:11.734991: Step [44500]  train Loss : 0.929834, training accuracy :  0.96875
+2019-12-11 00:01:32.465729: Step [45000]  train Loss : 0.898944, training accuracy :  1
+2019-12-11 00:01:34.601343: Step [45000]  val Loss : 0.536735, val accuracy :  0.974877
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-45000
+2019-12-11 00:02:59.052402: Step [45500]  train Loss : 0.845197, training accuracy :  0.9375
+2019-12-11 00:04:19.938144: Step [46000]  train Loss : 0.783256, training accuracy :  0.96875
+2019-12-11 00:04:22.078178: Step [46000]  val Loss : 0.514999, val accuracy :  0.982843
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_46000_0.9828.ckpt
+2019-12-11 00:05:46.108964: Step [46500]  train Loss : 1.081073, training accuracy :  0.96875
+2019-12-11 00:07:06.840309: Step [47000]  train Loss : 0.630581, training accuracy :  1
+2019-12-11 00:07:08.971406: Step [47000]  val Loss : 0.507184, val accuracy :  0.984069
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_47000_0.9841.ckpt
+2019-12-11 00:08:33.305016: Step [47500]  train Loss : 0.746022, training accuracy :  1
+2019-12-11 00:09:53.908669: Step [48000]  train Loss : 0.701017, training accuracy :  1
+2019-12-11 00:09:56.063231: Step [48000]  val Loss : 0.500316, val accuracy :  0.985907
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_48000_0.9859.ckpt
+2019-12-11 00:11:20.090058: Step [48500]  train Loss : 0.626222, training accuracy :  0.96875
+2019-12-11 00:12:40.576459: Step [49000]  train Loss : 0.622363, training accuracy :  1
+2019-12-11 00:12:42.723675: Step [49000]  val Loss : 0.494227, val accuracy :  0.984681
+2019-12-11 00:14:03.503982: Step [49500]  train Loss : 0.552971, training accuracy :  1
+2019-12-11 00:15:24.566109: Step [50000]  train Loss : 0.740350, training accuracy :  1
+2019-12-11 00:15:26.716445: Step [50000]  val Loss : 0.487049, val accuracy :  0.988971
+-----save:E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-50000
+------save:E:/DL_data/distracted_driver_detection/dataset/models\best_models_50000_0.9890.ckpt

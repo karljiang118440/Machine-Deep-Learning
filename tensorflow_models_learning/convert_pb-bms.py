@@ -1,15 +1,16 @@
 # -*-coding: utf-8 -*-
 """
     @Project: tensorflow_models_nets
-    @File   : convert_pb.py
-    @Author : panjq
-    @E-mail : pan_jinquan@163.com
-    @Date   : 2018-08-29 17:46:50
+    @File   : convert_pb-bms.py
+    @Author : karljiang 
+    @E-mail : jiang_chaoqing@126.com
+    @Date   : 2019.12.12
     @info   :
     -通过传入 CKPT 模型的路径得到模型的图和变量数据
     -通过 import_meta_graph 导入模型中的图
     -通过 saver.restore 从模型中恢复图中各个变量的数据
     -通过 graph_util.convert_variables_to_constants 将模型持久化
+    -更改输出节点名称
 """
 
 import tensorflow as tf
@@ -41,7 +42,8 @@ def freeze_graph_test(pb_path, image_path):
             input_is_training_tensor = sess.graph.get_tensor_by_name("is_training:0")
 
             # 定义输出的张量名称
-            output_tensor_name = sess.graph.get_tensor_by_name("MobilenetV1/Logits/SpatialSqueeze:0") #SpatialSqueeze:0 ->  SpatialSqueeze
+            #output_tensor_name = sess.graph.get_tensor_by_name("MobilenetV1/Logits/SpatialSqueeze:0") #SpatialSqueeze:0 ->  SpatialSqueeze
+            output_tensor_name = sess.graph.get_tensor_by_name("MobilenetV1/Predictions/Reshape_1") #SpatialSqueeze:0 ->  SpatialSqueeze
             # 读取测试图片
             im=read_image(image_path,resize_height,resize_width,normalization=True)
             im=im[np.newaxis,:]
@@ -67,7 +69,8 @@ def freeze_graph(input_checkpoint,output_graph):
     # input_checkpoint = checkpoint.model_checkpoint_path #得ckpt文件路径
 
     # 指定输出的节点名称,该节点名称必须是原模型中存在的节点
-    output_node_names = "MobilenetV1/Logits/SpatialSqueeze"  #InceptionV3 ->  MobilenetV1
+    #output_node_names = "MobilenetV1/Logits/SpatialSqueeze"  #InceptionV3 ->  MobilenetV1
+    output_node_names = "MobilenetV1/Predictions/Reshape_1"  #InceptionV3 ->  MobilenetV1
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=True)
 
     with tf.Session() as sess:
@@ -95,7 +98,7 @@ def freeze_graph2(input_checkpoint,output_graph):
     # input_checkpoint = checkpoint.model_checkpoint_path #得ckpt文件路径
 
     # 指定输出的节点名称,该节点名称必须是原模型中存在的节点
-    output_node_names = "MobilenetV1/Logits/SpatialSqueeze"  #InceptionV3 ->  MobilenetV1 -> MobilenetV1
+    output_node_names = "MobilenetV1/Predictions/Reshape_1"  #InceptionV3 ->  MobilenetV1 -> MobilenetV1
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=True)
     graph = tf.get_default_graph() # 获得默认的图
     input_graph_def = graph.as_graph_def()  # 返回一个序列化的图代表当前的图
@@ -120,7 +123,7 @@ if __name__ == '__main__':
     #input_checkpoint='models/model.ckpt-20000'
     input_checkpoint='E:/DL_data/distracted_driver_detection/dataset/models/model.ckpt-50000'
     # 输出pb模型的路径
-    out_pb_path="E:/DL_data/distracted_driver_detection/dataset/models/pb/frozen_model.pb"
+    out_pb_path="E:/DL_data/distracted_driver_detection/dataset/models/pb/frozen_model-prediction.pb"
     # 调用freeze_graph将ckpt转为pb
     freeze_graph(input_checkpoint,out_pb_path)
 

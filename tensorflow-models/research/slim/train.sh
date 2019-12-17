@@ -32,3 +32,75 @@ python train_image_classifier.py \
     --checkpoint_path=${CHECKPOINT_PATH} \
     --checkpoint_exclude_scopes=InceptionV3/Logits,InceptionV3/AuxLogits \
     --trainable_scopes=InceptionV3/Logits,InceptionV3/AuxLogits
+
+
+
+# Evaluating performance of a model
+# rename the validation files
+
+CHECKPOINT_FILE =/home/jcq/models-master/research/slim/tmp/checkpoints/inception_v3.ckpt
+ python eval_image_classifier.py \
+    --alsologtostderr \
+    --checkpoint_path=/home/jcq/models-master/research/slim/tmp/checkpoints/inception_v3.ckpt \
+    --dataset_dir=/home/jcq/models-master/research/slim/tmp/data/flowers \
+    --dataset_name=imagenet \
+    --dataset_split_name=validation \
+    --model_name=inception_v3
+
+
+
+# Exporting the Inference Graph
+
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python export_inference_graph.py \
+  --alsologtostderr \
+  --model_name=inception_v3 \
+  --output_file=/home/jcq/models-master/research/slim/tmp/inception_v3_inf_graph.pb
+
+python export_inference_graph.py \
+  --alsologtostderr \
+  --model_name=mobilenet_v1 \
+  --image_size=224 \
+  --output_file=/tmp/mobilenet_v1_224.pb
+
+
+
+
+# Freezing the exported Graph
+
+bazel build /home/jcq/.conda/envs/tensorflow_gpu/lib/python3.6/site-packages/tensorflow/python/tools:freeze_graph
+
+bazel-bin/tensorflow/python/tools/freeze_graph \
+  --input_graph=/tmp/inception_v3_inf_graph.pb \
+  --input_checkpoint=/tmp/checkpoints/inception_v3.ckpt \
+  --input_binary=true --output_graph=/tmp/frozen_inception_v3.pb \
+  --output_node_names=InceptionV3/Predictions/Reshape_1
+
+
+
+
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python -u /home/jcq/.conda/envs/tensorflow_gpu/lib/python3.6/site-packages/tensorflow/python/tools/freeze_graph.py  --input_graph=/home/jcq/models-master/research/slim/tmp/inception_v3_inf_graph.pb   --input_checkpoint=/home/jcq/models-master/research/slim/tmp/checkpoints/inception_v3.ckpt \--input_binary=true --output_graph=/home/jcq/models-master/research/slim/tmp/frozen_inception_v3.pb   --output_node_name=InceptionV3/Predictions/Reshape_1
+
+## run oks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

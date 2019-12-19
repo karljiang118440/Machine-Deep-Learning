@@ -32,10 +32,10 @@ from utility import scaffolds
 
 # hardware related configuration
 tf.app.flags.DEFINE_integer(
-    'num_readers', 8,
+    'num_readers', 8,     # 8
     'The number of parallel readers that read data from the dataset.')
 tf.app.flags.DEFINE_integer(
-    'num_preprocessing_threads', 8,
+    'num_preprocessing_threads', 2,   # 8 -> 2
     'The number of threads used to create the batches.')
 tf.app.flags.DEFINE_integer(
     'num_cpu_threads', 0,
@@ -80,13 +80,13 @@ tf.app.flags.DEFINE_string(
 
 
 tf.app.flags.DEFINE_integer(
-    'log_every_n_steps', 10,
+    'log_every_n_steps', 500,
     'The frequency with which logs are printed.')
 tf.app.flags.DEFINE_integer(
-    'save_summary_steps', 500,
+    'save_summary_steps', 2000,
     'The frequency with which summaries are saved, in seconds.')
 tf.app.flags.DEFINE_integer(
-    'save_checkpoints_secs', 7200,
+    'save_checkpoints_secs', 1200,
     'The frequency with which the model is saved, in seconds.')
 # model related configuration
 tf.app.flags.DEFINE_integer(
@@ -99,7 +99,7 @@ tf.app.flags.DEFINE_integer(
     'max_number_of_steps', 20000,
     'The max number of steps to use for training.')
 tf.app.flags.DEFINE_integer(
-    'batch_size', 8,
+    'batch_size', 4,
     'Batch size for training and evaluation.')
 tf.app.flags.DEFINE_string(
     'data_format', 'channels_first', # 'channels_first' or 'channels_last'
@@ -123,7 +123,7 @@ tf.app.flags.DEFINE_float(
     'The momentum for the MomentumOptimizer and RMSPropOptimizer.')
 tf.app.flags.DEFINE_float('learning_rate', 1e-3, 'Initial learning rate.')
 tf.app.flags.DEFINE_float(
-    'end_learning_rate', 0.000001,
+    'end_learning_rate', 0.0001, # 0.000001 -> 0.0001
     'The minimal end learning rate used by a polynomial decay learning rate.')
 # for learning rate piecewise_constant decay
 tf.app.flags.DEFINE_string(
@@ -134,7 +134,7 @@ tf.app.flags.DEFINE_string(
     'The values of learning_rate decay factor for each segment between boundaries (comma-separated list).')
 # checkpoint related configuration
 tf.app.flags.DEFINE_string(
-    'checkpoint_path', './model',
+    'checkpoint_path', '/media/jcq/Doc/DL_data/VOC/model',
     'The path to a checkpoint from which to fine-tune.')
 tf.app.flags.DEFINE_string(
     'checkpoint_model_scope', 'vgg_16',
@@ -418,7 +418,7 @@ def ssd_model_fn(features, labels, mode, params):
 
         optimizer = tf.train.MomentumOptimizer(learning_rate=truncated_learning_rate,
                                                 momentum=params['momentum'])
-        optimizer = tf.contrib.estimator.TowerOptimizer(optimizer)
+        optimizer = tf.contrib.estimator.TowerOptimizer(optimizer)  
 
         # Batch norm requires update_ops to be added as a train_op dependency.
         update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS)

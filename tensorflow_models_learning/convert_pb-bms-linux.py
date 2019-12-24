@@ -70,8 +70,8 @@ def freeze_graph(input_checkpoint,output_graph):
     # input_checkpoint = checkpoint.model_checkpoint_path #得ckpt文件路径
 
     # 指定输出的节点名称,该节点名称必须是原模型中存在的节点
-    output_node_names = "MobilenetV1/Logits/SpatialSqueeze"  #InceptionV3 ->  MobilenetV1
-    #output_node_names = "MobilenetV1/Predictions/Reshape_1"  #InceptionV3 ->  MobilenetV1
+    #output_node_names = "MobilenetV1/Logits/SpatialSqueeze"  #InceptionV3 ->  MobilenetV1
+    output_node_names = "MobilenetV1/Predictions/Reshape_1"  
     saver = tf.train.import_meta_graph(input_checkpoint + '.meta', clear_devices=True)
 
     with tf.Session() as sess:

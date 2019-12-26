@@ -189,15 +189,96 @@ bazel-bin/tensorflow/python/tools/freeze_graph \
 
 
 
+#
+#run mobilenet_v1 on dms:  --karljiang-2019.12.23
+run  dms dataset_dir
 
-#run mobilenet_v2
+
+
+## convert dataset to record
+
+DATA_DIR=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/data/flowers
+
+python download_and_convert_data.py \
+    --dataset_name=flowers \
+    --dataset_dir="${DATA_DIR}"
+
+
+/media/jcq/Doc/DL_data/distracted_driver_detection/dataset/record
 
 
 
-##1.
-/home/jcq/.conda/envs/tensorflow_gpu/bin/python download_and_convert_data.py \
---dataset_name=mydataset \
---dataset_dir="/media/jcq/Doc/DL_data/TF-Slim/MobilenetV2"
+
+
+
+CHECKPOINT_DIR=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/checkpoints
+cd ${CHECKPOINT_DIR}
+wget http://download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz
+tar -xvf mobilenet_v1_1.0_224.tgz
+rm mobilenet_v1_1.0_224.tgz
+cd ../..
+
+
+## set train steps 
+
+DATASET_DIR=/media/jcq/Doc/DL_data/distracted_driver_detection/dataset/record
+
+TRAIN_DIR=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/dms-models/mobilenet_v1
+
+CHECKPOINT_PATH=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/checkpoints/mobilenet_v1_1.0_224.ckpt
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python train_image_classifier.py \
+    --train_dir=${TRAIN_DIR} \
+    --dataset_dir=${DATASET_DIR} \
+    --dataset_name=record \
+    --dataset_split_name=train \
+    --model_name=mobilenet_v1 \
+    --checkpoint_path=${CHECKPOINT_PATH} \
+    --checkpoint_exclude_scopes=MobilenetV1/Logits,MobilenetV1/AuxLogits \
+    --trainable_scopes=MobilenetV1/Logits,MobilenetV1/AuxLogits
+
+
+
+# Evaluating performance of a model
+# rename the validation files
+
+CHECKPOINT_FILE =/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/checkpoints/mobilenet_v1_1.0_224.ckpt
+ /home/jcq/.conda/envs/tensorflow_gpu/bin/python eval_image_classifier.py \
+    --alsologtostderr \
+    --checkpoint_path=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/checkpoints/mobilenet_v1_1.0_224.ckpt \
+    --dataset_dir=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/data/flowers \
+    --dataset_name=flowers \
+    --dataset_split_name=validation \
+    --model_name=mobilenet_v1
+
+
+
+# Exporting the Inference Graph
+
+
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python export_inference_graph.py \
+  --alsologtostderr \
+  --model_name=mobilenet_v1 \
+  --image_size=224 \
+  --output_file=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/mobilenet_v1_inf_graph.pb
+
+
+
+
+# Freezing the exported Graph
+
+bazel build /home/jcq/.conda/envs/tensorflow_gpu/lib/python3.6/site-packages/tensorflow/python/tools:freeze_graph
+
+
+
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python \
+-u /home/jcq/.conda/envs/tensorflow_gpu/lib/python3.6/site-packages/tensorflow/python/tools/freeze_graph.py  \
+--input_graph=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/mobilenet_v1_inf_graph.pb   \
+--input_checkpoint=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/checkpoints/mobilenet_v1_1.0_224.ckpt \
+--input_binary=true --output_graph=/media/jcq/Soft/Tensorflow/tensorflow-models/research/slim/tmp/frozen_mobilenet_v1.pb   \
+--output_node_name=MobilenetV1/Predictions/Reshape_1
 
 
 

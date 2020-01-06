@@ -11,8 +11,13 @@ pip install tensorflow-gpu==1.12.0
 pip install -U tensorflow-gpu==1.13.1
 
 pip install tensorflow-gpu==1.14.0  #终于能够匹配 cuda10.1 cudnn 7.6
+conda install tensorflow-gpu==1.14.0
+conda uninstall tensorflow-gpu==1.14.0
+pip install tensorflow-gpu==1.19.0 
 
 pip install pillow
+
+pip uninstall tensorflow-gpu
 
 ## Protobuf Compilation
 
@@ -50,7 +55,9 @@ source ~/.bashrc
 ```
 cd tensorflow/models/research/
 /home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/builders/model_builder_test.py
-```
+
+/home/jcq/.conda/envs/tensorflow_gpu/bin/python object_detection/builders/model_builder_test.py
+
 ---
 
        OK ] ModelBuilderTest.test_create_ssd_mobilenet_v2_model_from_config
@@ -166,12 +173,16 @@ PIPELINE_CONFIG_PATH='/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/
 MODEL_DIR='/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200103/model' # 训练保存的model 位置
 NUM_TRAIN_STEPS=10000
 NUM_EVAL_STEPS=2000
+
 /home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/model_main.py \
     --pipeline_config_path=${PIPELINE_CONFIG_PATH} \
     --model_dir=${MODEL_DIR} \
     --num_train_steps=${NUM_TRAIN_STEPS} \
     --num_eval_steps=${NUM_EVAL_STEPS} \
     --alsologtostderr
+
+
+
 ```
 
 参考：https://github.com/tensorflow/models/issues/4856
@@ -203,6 +214,8 @@ EXPORT_DIR='./20170820/model/frozen_pb'
     --pipeline_config_path=${PIPELINE_CONFIG_PATH} \
     --trained_checkpoint_prefix=${TRAINED_CKPT_PREFIX} \
     --output_directory=${EXPORT_DIR}
+
+
 ```
 注意：我们正在配置导出的模型以摄取4-D图像张量。 我们还可以将导出的模型配置为采用编码图像或序列化tf.Examples。
 

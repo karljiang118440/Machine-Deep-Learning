@@ -1,22 +1,21 @@
 
 
-
-source /home/jcq/anaconda3/bin/activate tensorflow-object_detection
+source /home/jcq/anaconda3/bin/activate object_detection
 
 cd /home/jcq/models-master/research
 protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:/home/jcq/models-master/research/:/home/jcq/models-master/research/slim:/home/jcq/models-master/research/slim/nets
 
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/builders/model_builder_test.py
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/builders/model_builder_test.py
 
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/dataset_tools/create_pet_tf_record.py \
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/dataset_tools/create_pet_tf_record.py \
     --label_map_path=object_detection/data/pet_label_map.pbtxt \
     --data_dir=/media/jcq/Doc/DL_data/Oxford-IIT \
     --output_dir=//media/jcq/Doc/DL_data/Oxford-IIT/output_dir
 
 
 
-CUDA_VISIBLE_DEVICES="" /home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/model_main.py \
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/model_main.py \
         --logtostderr \
         --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
         --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
@@ -25,81 +24,94 @@ CUDA_VISIBLE_DEVICES="" /home/jcq/.conda/envs/tensorflow-object_detection/bin/py
  ## 使用的是 cpu 进行训练，速度非常着急
 
 
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/model_main.py \
+model_main.py 中添加如下指令即可
+
+
+
+import tensorflow as tf
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+tf.keras.backend.set_session(tf.Session(config=config))
+
+> >> 但是输出的文件位置有问题，并不对，机会配置并没有起到任何作用。相关的训练文件也找不到。
+
+
+
+
+
+
+### 重新使用 train.py 进行训练
+
+
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/legacy/train.py \
         --logtostderr \
         --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
         --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
 
-##  fail
+# 添加以下限制：
 
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/legacy/train.py \
-        --logtostderr \
-        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
-        --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
-
-
-
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/legacy/train.py \
---pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config\
---train_dir=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_coco_2017_11_17 –alsologtostderr
-
-/home/jcq/.conda/envs/tensorflow-object_detection/bin/python object_detection/legacy/train.py --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/output_dir –alsologtostderr
+import tensorflow as tf
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+tf.keras.backend.set_session(tf.Session(config=config))
 
 
-python object_detection/train.py \
-    --logtostderr \
-    --pipeline_config_path=${PATH_TO_YOUR_PIPELINE_CONFIG} \
-    --train_dir=${PATH_TO_TRAIN_DIR} \
+> ok, train sucesss !
 
 
 
 
 
+# 使用官方的脚本转换成.pb模型
+# From tensorflow/models/research/
+PIPELINE_CONFIG_PATH　＝　
+TRAIN_PATH =
+EXPORT_DIR =
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/export_inference_graph.py \
+    --input_type image_tensor \
+    --pipeline_config_path "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config" \
+    --trained_checkpoint_prefix "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/model.ckpt-10000" \
+    --output_directory "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/output_pb"
 
 
-### 使用 tensorflow-gpu 环境
-
-# 1. envroment
-
-source /home/jcq/anaconda3/bin/activate tensorflow_gpu
-
-cd /home/jcq/models-master/research
-
-
-protoc object_detection/protos/*.proto --python_out=.
-
-
-export PYTHONPATH=$PYTHONPATH:/home/jcq/models-master/research/:/home/jcq/models-master/research/slim:/home/jcq/models-master/research/slim/nets
-
-
-CUDA_VISIBLE_DEVICES="" /home/jcq/.conda/envs/tensorflow_gpu/bin/python object_detection/model_main.py \
-        --logtostderr \
-        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
-        --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
-
-## errors
-from tensorflow.contrib.quantize.python import graph_matcher
-ModuleNotFoundError: No module named 'tensorflow.contrib.quantize'
+# 导出模型成功
 
 
 
-### 使用 object_detection 环境
+## test.py
 
-# 1. envroment
-
-source /home/jcq/anaconda3/bin/activate object_detection
-
-cd /home/jcq/models-master/research
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/test.py
 
 
-protoc object_detection/protos/*.proto --python_out=.
+
+但是貌似没有任何效果，并没有在图片上画出来标记？
 
 
-export PYTHONPATH=$PYTHONPATH:/home/jcq/models-master/research/:/home/jcq/models-master/research/slim:/home/jcq/models-master/research/slim/nets
-/home/jcq/.conda/envs/object_detection/bin/python object_detection/builders/model_builder_test.py
 
-/home/jcq/.conda/envs/object_detection/bin/python object_detection/model_main.py \
-        --logtostderr \
-        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
-        --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
+## eval
+
+
+
+/home/jcq/.conda/envs/object_detection/bin/python eval.py\
+ --checkpoint_dir=train\
+ --eval_dir=eval\
+ --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config
+
+
+ --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
+
+
+
+
+
+
+
+
+### AIRuner quantizations 
+
+
+
+
+
+
 

@@ -45,8 +45,16 @@ tf.keras.backend.set_session(tf.Session(config=config))
 
 /home/jcq/.conda/envs/object_detection/bin/python object_detection/legacy/train.py \
         --logtostderr \
-        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config \
+        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_pets.config \
         --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint
+
+
+## 使用 tensorflow-gpu==1.13.1 进行训练
+
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/legacy/train.py \
+        --logtostderr \
+        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_pets.config \
+        --train_dir=/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint1
 
 # 添加以下限制：
 
@@ -69,12 +77,34 @@ TRAIN_PATH =
 EXPORT_DIR =
 /home/jcq/.conda/envs/object_detection/bin/python object_detection/export_inference_graph.py \
     --input_type image_tensor \
-    --pipeline_config_path "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pipeline.config" \
+    --pipeline_config_path "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_pets.config" \
     --trained_checkpoint_prefix "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/model.ckpt-10000" \
     --output_directory "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/output_pb"
 
 
+## tensorflow-gpu==1.13.1 ,能够成功
+
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/export_inference_graph.py \
+    --input_type image_tensor \
+    --pipeline_config_path "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_pets.config" \
+    --trained_checkpoint_prefix "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/model.ckpt-10000" \
+    --output_directory "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint1/output_pb"
+
+
+
+
 # 导出模型成功
+
+
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/export_inference_graph.py \
+    --input_type image_tensor \
+    --pipeline_config_path "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/ssd_mobilenet_v1_pets.config" \
+    --trained_checkpoint_prefix "/media/jcq/Doc/DL_data/Oxford-IIT/train_checkpoint/model.ckpt-10000" \
+    --output_directory "/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/output_pb"
+
+
+
+
 
 
 

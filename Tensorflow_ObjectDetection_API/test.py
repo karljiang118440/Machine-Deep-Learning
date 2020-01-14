@@ -15,9 +15,11 @@ from collections import defaultdict
 # from io import StringIO
 # from matplotlib import pyplot as plt
 from PIL import Image
-
+'''
 if tf.__version__ < '1.4.0':
     raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
+
+'''
 
 os.chdir('/home/jcq/models-master/research/object_detection')
 
@@ -46,7 +48,7 @@ PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
 # PATH_TO_LABELS = os.path.join('training', 'detection.pbtxt')
-PATH_TO_LABELS = '/home/raini/pro/tf_models/byz/trian_deepfasion_all/raini/deepfasion_nas/test_3_label.pbtxt'
+PATH_TO_LABELS = '/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200104/pet_label_map.pbtxt'
 
 # 改成自己例子中的类别数，2
 NUM_CLASSES = 3
@@ -91,14 +93,14 @@ def load_image_into_numpy_array(image):
 
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 # 测试图片位置
-PATH_TO_TEST_IMAGES_DIR = "/home/raini/pro/tf_models/byz/trian_deepfasion_all/raini/deepfasion_nas/test_img"
+PATH_TO_TEST_IMAGES_DIR = "./test"
 os.chdir(PATH_TO_TEST_IMAGES_DIR)
 TEST_IMAGE_PATHS = os.listdir(PATH_TO_TEST_IMAGES_DIR)
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
 
-output_path = ('/home/raini/pro/tf_models/byz/trian_deepfasion_all/raini/deepfasion_nas/test_output/')
+output_path = ('./test')
 
 with detection_graph.as_default():
     with tf.Session(graph=detection_graph) as sess:

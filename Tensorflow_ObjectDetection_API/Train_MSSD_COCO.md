@@ -67,8 +67,25 @@ python3 object_detection/dataset_tools/create_coco_tf_record.py --logtostderr \
 
 
 
+4、使用 create_coco_tf_record.py 产生tf_records
 
-# 3、使用 train.py 进行训练
+    /home/jcq/.conda/envs/object_detection/bin/python object_detection/dataset_tools/create_coco_tf_record.py --logtostderr \
+      --train_image_dir="${TRAIN_IMAGE_DIR}" \
+      --val_image_dir="${VAL_IMAGE_DIR}" \
+      --test_image_dir="${TEST_IMAGE_DIR}" \
+      --train_annotations_file="${TRAIN_ANNOTATIONS_FILE}" \
+      --val_annotations_file="${VAL_ANNOTATIONS_FILE}" \
+      --testdev_annotations_file="${TESTDEV_ANNOTATIONS_FILE}" \
+      --output_dir="${OUTPUT_DIR}"
+
+      应该不会有大问题
+
+
+
+
+
+
+# 3、使用 model_main.py 进行训练
 
 
 PIPELINE_CONFIG_PATH='/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200113/ssd_mobilenet_v2_coco.config'
@@ -81,6 +98,16 @@ NUM_EVAL_STEPS=2000
     --num_train_steps=${NUM_TRAIN_STEPS} \
     --num_eval_steps=${NUM_EVAL_STEPS} \
     --alsologtostderr
+
+ ==> 总是死机，无法完成，修改为下面即可：
+
+
+
+/home/jcq/.conda/envs/object_detection/bin/python object_detection/legacy/train.py \
+        --logtostderr \
+        --pipeline_config_path=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200113/ssd_mobilenet_v2_coco.config \
+        --train_dir=/media/jcq/Soft/Tensorflow/Tensorflow_ObjectDetection_API/20200113/model
+
 
 ## 3.1 、tensorboard 查看结果
 
